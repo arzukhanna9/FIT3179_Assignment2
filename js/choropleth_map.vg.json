@@ -32,7 +32,7 @@
             "fields": ["total_litres_of_pure_alcohol"]
           }
         },
-        {"calculate": "datum.total_litres_of_pure_alcohol", "as": "Pure Alcohol (Average Litre/person)"}
+        {"calculate": "datum.total_litres_of_pure_alcohol", "as": "Pure Alcohol (Avg Litres/person)"}
       ],
       "mark": {"type": "geoshape", "stroke": "grey", "strokeWidth": 0.4},
       "encoding": {
