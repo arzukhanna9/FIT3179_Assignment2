@@ -1,6 +1,6 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "title": "Annnual Alcohol Consumption around the World",
+  "title": "Annual Alcohol Consumption Around the World",
   "width": 800,
   "height": 500,
   "data": {
