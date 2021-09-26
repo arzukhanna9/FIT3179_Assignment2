@@ -26,7 +26,7 @@
           "lookup": "properties.NAME",
           "from": {
             "data": {
-              "url": "https://raw.githubusercontent.com/arzukhanna9/FIT3179_Assignment2/main/data/alc_data.csv"
+              "url": "https://raw.githubusercontent.com/arzukhanna9/FIT3179_Assignment2/main/data/alcohol_data.csv"
             },
             "key": "country",
             "fields": ["total_litres_of_pure_alcohol"]
