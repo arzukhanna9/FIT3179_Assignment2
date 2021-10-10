@@ -1,5 +1,6 @@
 #alc_bubble_plot {
 	top:50px;
+	bottom: 50px;
 	left: 50px;
 	right: 50px;
 	height: 400px;
@@ -8,6 +9,7 @@
 
 #alc_choropleth_map {
 	top: 800px;
+	bottom: 50px;
 	left: 50px;
 	right: 50px;
 	height: 500px;
