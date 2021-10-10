@@ -1,17 +1,15 @@
 #alc_bubble_plot {
-	top:100px;
-	bottom: 100px; 
-	left: 100px;
-	right: 100px;
+	top:50px;
+	left: 50px;
+	right: 50px;
 	height: 500px;
 	width: 400px;
 }
 
 #alc_choropleth_map {
-	top: 600px;
-	bottom: 100px; 
-	left: 100px;
-	right: 100px;
+	top: 750px;
+	left: 50px;
+	right: 50px;
 	height: 500px;
 	width: 400px;
 }
