@@ -112,8 +112,8 @@
           }
         },
         "opacity": {
-          "condition": {"selection": "continent_highlight", "value": 0.8},
-          "value": 0.8
+          "condition": {"selection": "continent_highlight", "value": 0.7},
+          "value": 0.2
         },
         "tooltip": [
           {"field": "country", "type": "nominal"},
@@ -121,6 +121,27 @@
           {"field": "incomeperperson", "type": "quantitative", "format": ","},
           {"field": "suicideper100th", "type": "quantitative", "format": ","}
         ]
+      }
+    },
+        {
+      "mark": {
+        "type": "text",
+        "align": "right",
+        "baseline": "middle",
+        "dx": -12,
+        "fontSize": 11.5,
+        "fontStyle": "italic"
+      },
+      "encoding": {
+        "text": {"field": "country", "type": "nominal"},
+        "color": {"value": "black"},
+        "opacity": {
+          "condition": {
+            "test": "datum['country'] == 'South Korea'|| datum['country'] == 'Australia'||  datum['country'] == 'Sri Lanka' || datum['country'] == 'United Kingdom' || datum['country'] == 'Russia' || datum['country'] == 'United States of America' || datum['country'] == 'China' || datum['country'] == 'New Zealand'",
+            "value": 1
+          },
+          "value": 0
+        }
       }
     }
   ]
