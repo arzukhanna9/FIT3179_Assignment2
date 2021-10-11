@@ -4,7 +4,7 @@
   "height": 600,
   "title": "Alcohol Consumption vs Sucicide Rate",
   "data": {
-    "url": "https://raw.githubusercontent.com/arzukhanna9/FIT3179_Assignment2/main/full_alcohol_data.csv"
+    "url": "https://raw.githubusercontent.com/arzukhanna9/FIT3179_Assignment2/main/data/full_alcohol_data.csv"
   },
   "params": [
     {
