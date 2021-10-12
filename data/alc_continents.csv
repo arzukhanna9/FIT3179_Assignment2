@@ -2,24 +2,18 @@
 "1","Africa","wine",862
 "2","Africa","beer",3258
 "3","Africa","spirits",866
-"4","Africa","total",4986
-"5","Asia","wine",326
-"6","Asia","beer",1383
-"7","Asia","spirits",2351
-"8","Asia","total",4060
-"9","Europe","wine",6473
-"10","Europe","beer",8967
-"11","Europe","spirits",6291
-"12","Europe","total",21731
-"13","North America","wine",564
-"14","North America","beer",3345
-"15","North America","spirits",3812
-"16","North America","total",7721
-"17","Oceania","wine",570
-"18","Oceania","beer",1435
-"19","Oceania","spirits",935
-"20","Oceania","total",2940
-"21","South America","wine",749
-"22","South America","beer",2101
-"23","South America","spirits",1377
-"24","South America","total",4227
+"4","Asia","wine",326
+"5","Asia","beer",1383
+"6","Asia","spirits",2351
+"7","Europe","wine",6473
+"8","Europe","beer",8967
+"9","Europe","spirits",6291
+"10","North America","wine",564
+"11","North America","beer",3345
+"12","North America","spirits",3812
+"13","Oceania","wine",570
+"14","Oceania","beer",1435
+"15","Oceania","spirits",935
+"16","South America","wine",749
+"17","South America","beer",2101
+"18","South America","spirits",1377
