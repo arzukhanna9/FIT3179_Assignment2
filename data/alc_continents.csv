@@ -1,7 +1,25 @@
-"","Continent","total_wine","total_beer","total_spirits","total"
-"1","Africa",862,3258,866,4986
-"2","Asia",326,1383,2351,4060
-"3","Europe",6473,8967,6291,21731
-"4","North America",564,3345,3812,7721
-"5","Oceania",570,1435,935,2940
-"6","South America",749,2101,1377,4227
+"","Continent","alcohol","servings"
+"1","Africa","wine",862
+"2","Africa","beer",3258
+"3","Africa","spirits",866
+"4","Africa","total",4986
+"5","Asia","wine",326
+"6","Asia","beer",1383
+"7","Asia","spirits",2351
+"8","Asia","total",4060
+"9","Europe","wine",6473
+"10","Europe","beer",8967
+"11","Europe","spirits",6291
+"12","Europe","total",21731
+"13","North America","wine",564
+"14","North America","beer",3345
+"15","North America","spirits",3812
+"16","North America","total",7721
+"17","Oceania","wine",570
+"18","Oceania","beer",1435
+"19","Oceania","spirits",935
+"20","Oceania","total",2940
+"21","South America","wine",749
+"22","South America","beer",2101
+"23","South America","spirits",1377
+"24","South America","total",4227
