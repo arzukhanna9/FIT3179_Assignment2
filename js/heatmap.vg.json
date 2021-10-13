@@ -1,0 +1,42 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": "Happiness vs Alcohol Consumed",
+  "data": {"url": "https://raw.githubusercontent.com/arzukhanna9/FIT3179_Assignment2/main/data/full_alcohol_data.csv"},
+  "width": "container",
+  "transform": [{
+    "filter": {"and": [
+      {"field": "Happiness Score", "valid": true},
+      {"field": "total_litres_of_pure_alcohol", "valid": true}
+    ]}
+  }],
+  "mark": "rect",
+  "width": 300,
+  "height": 200,
+  "encoding": {
+    "x": {
+      "title": "Pure Alcohol (Litres)",
+      "bin": {"maxbins":8},
+      "field": "total_litres_of_pure_alcohol",
+      "type": "quantitative"
+    },
+    "y": {
+      "title": "Average Happiness Score (/10)",
+      "bin": {"maxbins": 10},
+      "field": "Happiness Score",
+      "type": "quantitative"
+    },
+    "color": {
+      "title": "Frequency",
+      "aggregate": "count",
+      "type": "quantitative"
+    }
+  },
+  "config": {
+    "view": {
+      "stroke": "transparent"
+    }
+  }
+}
+
+
+
