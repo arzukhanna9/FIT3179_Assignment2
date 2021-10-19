@@ -1,0 +1,701 @@
+,Var1,Var2,Freq
+All,alcconsumption,alcconsumption,1
+All,incomeperperson,alcconsumption,0.247642777
+All,suicideper100th,alcconsumption,0.343219682
+All,employrate,alcconsumption,-0.101337789
+All,urbanrate,alcconsumption,0.285779572
+All,beer_servings,alcconsumption,0.733780027
+All,spirit_servings,alcconsumption,0.5357056
+All,wine_servings,alcconsumption,0.545960802
+All,total_litres_of_pure_alcohol,alcconsumption,0.881127462
+All,Happiness.Score,alcconsumption,0.271780431
+All,alcconsumption,incomeperperson,0.247642777
+All,incomeperperson,incomeperperson,1
+All,suicideper100th,incomeperperson,0.006954859
+All,employrate,incomeperperson,-0.019480871
+All,urbanrate,incomeperperson,0.5447289
+All,beer_servings,incomeperperson,0.266985085
+All,spirit_servings,incomeperperson,0.07130788
+All,wine_servings,incomeperperson,0.428310381
+All,total_litres_of_pure_alcohol,incomeperperson,0.278127557
+All,Happiness.Score,incomeperperson,0.526541032
+All,alcconsumption,suicideper100th,0.343219682
+All,incomeperperson,suicideper100th,0.006954859
+All,suicideper100th,suicideper100th,1
+All,employrate,suicideper100th,0.023861891
+All,urbanrate,suicideper100th,-0.125377185
+All,beer_servings,suicideper100th,0.192740971
+All,spirit_servings,suicideper100th,0.223235943
+All,wine_servings,suicideper100th,0.112820021
+All,total_litres_of_pure_alcohol,suicideper100th,0.321205335
+All,Happiness.Score,suicideper100th,0.094818
+All,alcconsumption,employrate,-0.101337789
+All,incomeperperson,employrate,-0.019480871
+All,suicideper100th,employrate,0.023861891
+All,employrate,employrate,1
+All,urbanrate,employrate,-0.30438415
+All,beer_servings,employrate,-0.147269426
+All,spirit_servings,employrate,-0.157638146
+All,wine_servings,employrate,-0.160417943
+All,total_litres_of_pure_alcohol,employrate,-0.111795768
+All,Happiness.Score,employrate,-0.030037153
+All,alcconsumption,urbanrate,0.285779572
+All,incomeperperson,urbanrate,0.5447289
+All,suicideper100th,urbanrate,-0.125377185
+All,employrate,urbanrate,-0.30438415
+All,urbanrate,urbanrate,1
+All,beer_servings,urbanrate,0.395601077
+All,spirit_servings,urbanrate,0.197668327
+All,wine_servings,urbanrate,0.389959616
+All,total_litres_of_pure_alcohol,urbanrate,0.343583731
+All,Happiness.Score,urbanrate,0.47337013
+All,alcconsumption,beer_servings,0.733780027
+All,incomeperperson,beer_servings,0.266985085
+All,suicideper100th,beer_servings,0.192740971
+All,employrate,beer_servings,-0.147269426
+All,urbanrate,beer_servings,0.395601077
+All,beer_servings,beer_servings,1
+All,spirit_servings,beer_servings,0.458818874
+All,wine_servings,beer_servings,0.527171694
+All,total_litres_of_pure_alcohol,beer_servings,0.835838628
+All,Happiness.Score,beer_servings,0.400039718
+All,alcconsumption,spirit_servings,0.5357056
+All,incomeperperson,spirit_servings,0.07130788
+All,suicideper100th,spirit_servings,0.223235943
+All,employrate,spirit_servings,-0.157638146
+All,urbanrate,spirit_servings,0.197668327
+All,beer_servings,spirit_servings,0.458818874
+All,spirit_servings,spirit_servings,1
+All,wine_servings,spirit_servings,0.194797047
+All,total_litres_of_pure_alcohol,spirit_servings,0.654968175
+All,Happiness.Score,spirit_servings,0.176222327
+All,alcconsumption,wine_servings,0.545960802
+All,incomeperperson,wine_servings,0.428310381
+All,suicideper100th,wine_servings,0.112820021
+All,employrate,wine_servings,-0.160417943
+All,urbanrate,wine_servings,0.389959616
+All,beer_servings,wine_servings,0.527171694
+All,spirit_servings,wine_servings,0.194797047
+All,wine_servings,wine_servings,1
+All,total_litres_of_pure_alcohol,wine_servings,0.667598342
+All,Happiness.Score,wine_servings,0.397554839
+All,alcconsumption,total_litres_of_pure_alcohol,0.881127462
+All,incomeperperson,total_litres_of_pure_alcohol,0.278127557
+All,suicideper100th,total_litres_of_pure_alcohol,0.321205335
+All,employrate,total_litres_of_pure_alcohol,-0.111795768
+All,urbanrate,total_litres_of_pure_alcohol,0.343583731
+All,beer_servings,total_litres_of_pure_alcohol,0.835838628
+All,spirit_servings,total_litres_of_pure_alcohol,0.654968175
+All,wine_servings,total_litres_of_pure_alcohol,0.667598342
+All,total_litres_of_pure_alcohol,total_litres_of_pure_alcohol,1
+All,Happiness.Score,total_litres_of_pure_alcohol,0.358147677
+All,alcconsumption,Happiness.Score,0.271780431
+All,incomeperperson,Happiness.Score,0.526541032
+All,suicideper100th,Happiness.Score,0.094818
+All,employrate,Happiness.Score,-0.030037153
+All,urbanrate,Happiness.Score,0.47337013
+All,beer_servings,Happiness.Score,0.400039718
+All,spirit_servings,Happiness.Score,0.176222327
+All,wine_servings,Happiness.Score,0.397554839
+All,total_litres_of_pure_alcohol,Happiness.Score,0.358147677
+All,Happiness.Score,Happiness.Score,1
+Africa,alcconsumption,alcconsumption,1
+Africa,incomeperperson,alcconsumption,0.16474459
+Africa,suicideper100th,alcconsumption,0.271240286
+Africa,employrate,alcconsumption,0.117503225
+Africa,urbanrate,alcconsumption,-0.058503558
+Africa,beer_servings,alcconsumption,0.555005691
+Africa,spirit_servings,alcconsumption,0.212334724
+Africa,wine_servings,alcconsumption,0.228493385
+Africa,total_litres_of_pure_alcohol,alcconsumption,0.909481855
+Africa,Happiness.Score,alcconsumption,0.094718484
+Africa,alcconsumption,incomeperperson,0.16474459
+Africa,incomeperperson,incomeperperson,1
+Africa,suicideper100th,incomeperperson,-0.088558856
+Africa,employrate,incomeperperson,-0.403942674
+Africa,urbanrate,incomeperperson,0.452437609
+Africa,beer_servings,incomeperperson,0.406573761
+Africa,spirit_servings,incomeperperson,0.124702133
+Africa,wine_servings,incomeperperson,0.586846718
+Africa,total_litres_of_pure_alcohol,incomeperperson,0.183937551
+Africa,Happiness.Score,incomeperperson,0.265015815
+Africa,alcconsumption,suicideper100th,0.271240286
+Africa,incomeperperson,suicideper100th,-0.088558856
+Africa,suicideper100th,suicideper100th,1
+Africa,employrate,suicideper100th,0.244661962
+Africa,urbanrate,suicideper100th,-0.25895078
+Africa,beer_servings,suicideper100th,0.100713762
+Africa,spirit_servings,suicideper100th,-0.000387671
+Africa,wine_servings,suicideper100th,0.053229084
+Africa,total_litres_of_pure_alcohol,suicideper100th,0.289277644
+Africa,Happiness.Score,suicideper100th,-0.099576438
+Africa,alcconsumption,employrate,0.117503225
+Africa,incomeperperson,employrate,-0.403942674
+Africa,suicideper100th,employrate,0.244661962
+Africa,employrate,employrate,1
+Africa,urbanrate,employrate,-0.484727351
+Africa,beer_servings,employrate,-0.242341875
+Africa,spirit_servings,employrate,-0.058320718
+Africa,wine_servings,employrate,-0.114933429
+Africa,total_litres_of_pure_alcohol,employrate,0.019951195
+Africa,Happiness.Score,employrate,-0.428378674
+Africa,alcconsumption,urbanrate,-0.058503558
+Africa,incomeperperson,urbanrate,0.452437609
+Africa,suicideper100th,urbanrate,-0.25895078
+Africa,employrate,urbanrate,-0.484727351
+Africa,urbanrate,urbanrate,1
+Africa,beer_servings,urbanrate,0.293238942
+Africa,spirit_servings,urbanrate,0.410477166
+Africa,wine_servings,urbanrate,0.255255774
+Africa,total_litres_of_pure_alcohol,urbanrate,0.055212862
+Africa,Happiness.Score,urbanrate,0.165009684
+Africa,alcconsumption,beer_servings,0.555005691
+Africa,incomeperperson,beer_servings,0.406573761
+Africa,suicideper100th,beer_servings,0.100713762
+Africa,employrate,beer_servings,-0.242341875
+Africa,urbanrate,beer_servings,0.293238942
+Africa,beer_servings,beer_servings,1
+Africa,spirit_servings,beer_servings,0.409619165
+Africa,wine_servings,beer_servings,0.306796786
+Africa,total_litres_of_pure_alcohol,beer_servings,0.644130188
+Africa,Happiness.Score,beer_servings,0.124137214
+Africa,alcconsumption,spirit_servings,0.212334724
+Africa,incomeperperson,spirit_servings,0.124702133
+Africa,suicideper100th,spirit_servings,-0.000387671
+Africa,employrate,spirit_servings,-0.058320718
+Africa,urbanrate,spirit_servings,0.410477166
+Africa,beer_servings,spirit_servings,0.409619165
+Africa,spirit_servings,spirit_servings,1
+Africa,wine_servings,spirit_servings,0.202459815
+Africa,total_litres_of_pure_alcohol,spirit_servings,0.310381433
+Africa,Happiness.Score,spirit_servings,-0.103142757
+Africa,alcconsumption,wine_servings,0.228493385
+Africa,incomeperperson,wine_servings,0.586846718
+Africa,suicideper100th,wine_servings,0.053229084
+Africa,employrate,wine_servings,-0.114933429
+Africa,urbanrate,wine_servings,0.255255774
+Africa,beer_servings,wine_servings,0.306796786
+Africa,spirit_servings,wine_servings,0.202459815
+Africa,wine_servings,wine_servings,1
+Africa,total_litres_of_pure_alcohol,wine_servings,0.313100711
+Africa,Happiness.Score,wine_servings,0.01353876
+Africa,alcconsumption,total_litres_of_pure_alcohol,0.909481855
+Africa,incomeperperson,total_litres_of_pure_alcohol,0.183937551
+Africa,suicideper100th,total_litres_of_pure_alcohol,0.289277644
+Africa,employrate,total_litres_of_pure_alcohol,0.019951195
+Africa,urbanrate,total_litres_of_pure_alcohol,0.055212862
+Africa,beer_servings,total_litres_of_pure_alcohol,0.644130188
+Africa,spirit_servings,total_litres_of_pure_alcohol,0.310381433
+Africa,wine_servings,total_litres_of_pure_alcohol,0.313100711
+Africa,total_litres_of_pure_alcohol,total_litres_of_pure_alcohol,1
+Africa,Happiness.Score,total_litres_of_pure_alcohol,0.121224595
+Africa,alcconsumption,Happiness.Score,0.094718484
+Africa,incomeperperson,Happiness.Score,0.265015815
+Africa,suicideper100th,Happiness.Score,-0.099576438
+Africa,employrate,Happiness.Score,-0.428378674
+Africa,urbanrate,Happiness.Score,0.165009684
+Africa,beer_servings,Happiness.Score,0.124137214
+Africa,spirit_servings,Happiness.Score,-0.103142757
+Africa,wine_servings,Happiness.Score,0.01353876
+Africa,total_litres_of_pure_alcohol,Happiness.Score,0.121224595
+Africa,Happiness.Score,Happiness.Score,1
+Asia,alcconsumption,alcconsumption,1
+Asia,incomeperperson,alcconsumption,0.117898362
+Asia,suicideper100th,alcconsumption,0.43172893
+Asia,employrate,alcconsumption,0.216315188
+Asia,urbanrate,alcconsumption,0.046198561
+Asia,beer_servings,alcconsumption,0.812967631
+Asia,spirit_servings,alcconsumption,0.446232532
+Asia,wine_servings,alcconsumption,0.280304279
+Asia,total_litres_of_pure_alcohol,alcconsumption,0.882935003
+Asia,Happiness.Score,alcconsumption,0.053495426
+Asia,alcconsumption,incomeperperson,0.117898362
+Asia,incomeperperson,incomeperperson,1
+Asia,suicideper100th,incomeperperson,-0.137923036
+Asia,employrate,incomeperperson,0.154788504
+Asia,urbanrate,incomeperperson,0.636438278
+Asia,beer_servings,incomeperperson,0.17198325
+Asia,spirit_servings,incomeperperson,0.090132884
+Asia,wine_servings,incomeperperson,0.005924489
+Asia,total_litres_of_pure_alcohol,incomeperperson,0.205851064
+Asia,Happiness.Score,incomeperperson,0.516929672
+Asia,alcconsumption,suicideper100th,0.43172893
+Asia,incomeperperson,suicideper100th,-0.137923036
+Asia,suicideper100th,suicideper100th,1
+Asia,employrate,suicideper100th,0.134209539
+Asia,urbanrate,suicideper100th,-0.393519815
+Asia,beer_servings,suicideper100th,0.355155833
+Asia,spirit_servings,suicideper100th,0.215454959
+Asia,wine_servings,suicideper100th,0.326048289
+Asia,total_litres_of_pure_alcohol,suicideper100th,0.464994094
+Asia,Happiness.Score,suicideper100th,0.093642029
+Asia,alcconsumption,employrate,0.216315188
+Asia,incomeperperson,employrate,0.154788504
+Asia,suicideper100th,employrate,0.134209539
+Asia,employrate,employrate,1
+Asia,urbanrate,employrate,-0.185851761
+Asia,beer_servings,employrate,0.258936716
+Asia,spirit_servings,employrate,0.1884817
+Asia,wine_servings,employrate,0.215838288
+Asia,total_litres_of_pure_alcohol,employrate,0.257736873
+Asia,Happiness.Score,employrate,0.147699217
+Asia,alcconsumption,urbanrate,0.046198561
+Asia,incomeperperson,urbanrate,0.636438278
+Asia,suicideper100th,urbanrate,-0.393519815
+Asia,employrate,urbanrate,-0.185851761
+Asia,urbanrate,urbanrate,1
+Asia,beer_servings,urbanrate,0.097418573
+Asia,spirit_servings,urbanrate,-0.019136382
+Asia,wine_servings,urbanrate,-0.01967651
+Asia,total_litres_of_pure_alcohol,urbanrate,0.069171329
+Asia,Happiness.Score,urbanrate,0.332541019
+Asia,alcconsumption,beer_servings,0.812967631
+Asia,incomeperperson,beer_servings,0.17198325
+Asia,suicideper100th,beer_servings,0.355155833
+Asia,employrate,beer_servings,0.258936716
+Asia,urbanrate,beer_servings,0.097418573
+Asia,beer_servings,beer_servings,1
+Asia,spirit_servings,beer_servings,0.570249058
+Asia,wine_servings,beer_servings,0.207246631
+Asia,total_litres_of_pure_alcohol,beer_servings,0.865683344
+Asia,Happiness.Score,beer_servings,0.106824896
+Asia,alcconsumption,spirit_servings,0.446232532
+Asia,incomeperperson,spirit_servings,0.090132884
+Asia,suicideper100th,spirit_servings,0.215454959
+Asia,employrate,spirit_servings,0.1884817
+Asia,urbanrate,spirit_servings,-0.019136382
+Asia,beer_servings,spirit_servings,0.570249058
+Asia,spirit_servings,spirit_servings,1
+Asia,wine_servings,spirit_servings,0.005720492
+Asia,total_litres_of_pure_alcohol,spirit_servings,0.697173052
+Asia,Happiness.Score,spirit_servings,0.110917161
+Asia,alcconsumption,wine_servings,0.280304279
+Asia,incomeperperson,wine_servings,0.005924489
+Asia,suicideper100th,wine_servings,0.326048289
+Asia,employrate,wine_servings,0.215838288
+Asia,urbanrate,wine_servings,-0.01967651
+Asia,beer_servings,wine_servings,0.207246631
+Asia,spirit_servings,wine_servings,0.005720492
+Asia,wine_servings,wine_servings,1
+Asia,total_litres_of_pure_alcohol,wine_servings,0.39017349
+Asia,Happiness.Score,wine_servings,-0.018164448
+Asia,alcconsumption,total_litres_of_pure_alcohol,0.882935003
+Asia,incomeperperson,total_litres_of_pure_alcohol,0.205851064
+Asia,suicideper100th,total_litres_of_pure_alcohol,0.464994094
+Asia,employrate,total_litres_of_pure_alcohol,0.257736873
+Asia,urbanrate,total_litres_of_pure_alcohol,0.069171329
+Asia,beer_servings,total_litres_of_pure_alcohol,0.865683344
+Asia,spirit_servings,total_litres_of_pure_alcohol,0.697173052
+Asia,wine_servings,total_litres_of_pure_alcohol,0.39017349
+Asia,total_litres_of_pure_alcohol,total_litres_of_pure_alcohol,1
+Asia,Happiness.Score,total_litres_of_pure_alcohol,0.12340632
+Asia,alcconsumption,Happiness.Score,0.053495426
+Asia,incomeperperson,Happiness.Score,0.516929672
+Asia,suicideper100th,Happiness.Score,0.093642029
+Asia,employrate,Happiness.Score,0.147699217
+Asia,urbanrate,Happiness.Score,0.332541019
+Asia,beer_servings,Happiness.Score,0.106824896
+Asia,spirit_servings,Happiness.Score,0.110917161
+Asia,wine_servings,Happiness.Score,-0.018164448
+Asia,total_litres_of_pure_alcohol,Happiness.Score,0.12340632
+Asia,Happiness.Score,Happiness.Score,1
+Europe,alcconsumption,alcconsumption,1
+Europe,incomeperperson,alcconsumption,-0.212119747
+Europe,suicideper100th,alcconsumption,0.614897135
+Europe,employrate,alcconsumption,-0.100340562
+Europe,urbanrate,alcconsumption,-0.227376858
+Europe,beer_servings,alcconsumption,0.321611509
+Europe,spirit_servings,alcconsumption,0.474614503
+Europe,wine_servings,alcconsumption,-0.093724059
+Europe,total_litres_of_pure_alcohol,alcconsumption,0.421154988
+Europe,Happiness.Score,alcconsumption,-0.177030526
+Europe,alcconsumption,incomeperperson,-0.212119747
+Europe,incomeperperson,incomeperperson,1
+Europe,suicideper100th,incomeperperson,-0.13104476
+Europe,employrate,incomeperperson,0.350380666
+Europe,urbanrate,incomeperperson,0.637376635
+Europe,beer_servings,incomeperperson,-0.136503792
+Europe,spirit_servings,incomeperperson,-0.505785302
+Europe,wine_servings,incomeperperson,0.137102872
+Europe,total_litres_of_pure_alcohol,incomeperperson,-0.24965064
+Europe,Happiness.Score,incomeperperson,0.5642633
+Europe,alcconsumption,suicideper100th,0.614897135
+Europe,incomeperperson,suicideper100th,-0.13104476
+Europe,suicideper100th,suicideper100th,1
+Europe,employrate,suicideper100th,0.028624664
+Europe,urbanrate,suicideper100th,-0.04847203
+Europe,beer_servings,suicideper100th,0.411494519
+Europe,spirit_servings,suicideper100th,0.538429513
+Europe,wine_servings,suicideper100th,-0.119453539
+Europe,total_litres_of_pure_alcohol,suicideper100th,0.492732278
+Europe,Happiness.Score,suicideper100th,0.054445252
+Europe,alcconsumption,employrate,-0.100340562
+Europe,incomeperperson,employrate,0.350380666
+Europe,suicideper100th,employrate,0.028624664
+Europe,employrate,employrate,1
+Europe,urbanrate,employrate,0.273986335
+Europe,beer_servings,employrate,0.15642999
+Europe,spirit_servings,employrate,-0.241644402
+Europe,wine_servings,employrate,0.104742568
+Europe,total_litres_of_pure_alcohol,employrate,0.039210994
+Europe,Happiness.Score,employrate,0.556289536
+Europe,alcconsumption,urbanrate,-0.227376858
+Europe,incomeperperson,urbanrate,0.637376635
+Europe,suicideper100th,urbanrate,-0.04847203
+Europe,employrate,urbanrate,0.273986335
+Europe,urbanrate,urbanrate,1
+Europe,beer_servings,urbanrate,0.008303451
+Europe,spirit_servings,urbanrate,-0.215157465
+Europe,wine_servings,urbanrate,0.09095623
+Europe,total_litres_of_pure_alcohol,urbanrate,-0.044567403
+Europe,Happiness.Score,urbanrate,0.551367869
+Europe,alcconsumption,beer_servings,0.321611509
+Europe,incomeperperson,beer_servings,-0.136503792
+Europe,suicideper100th,beer_servings,0.411494519
+Europe,employrate,beer_servings,0.15642999
+Europe,urbanrate,beer_servings,0.008303451
+Europe,beer_servings,beer_servings,1
+Europe,spirit_servings,beer_servings,0.281504776
+Europe,wine_servings,beer_servings,0.286816305
+Europe,total_litres_of_pure_alcohol,beer_servings,0.807608126
+Europe,Happiness.Score,beer_servings,0.365820717
+Europe,alcconsumption,spirit_servings,0.474614503
+Europe,incomeperperson,spirit_servings,-0.505785302
+Europe,suicideper100th,spirit_servings,0.538429513
+Europe,employrate,spirit_servings,-0.241644402
+Europe,urbanrate,spirit_servings,-0.215157465
+Europe,beer_servings,spirit_servings,0.281504776
+Europe,spirit_servings,spirit_servings,1
+Europe,wine_servings,spirit_servings,-0.290546027
+Europe,total_litres_of_pure_alcohol,spirit_servings,0.544740953
+Europe,Happiness.Score,spirit_servings,-0.279482265
+Europe,alcconsumption,wine_servings,-0.093724059
+Europe,incomeperperson,wine_servings,0.137102872
+Europe,suicideper100th,wine_servings,-0.119453539
+Europe,employrate,wine_servings,0.104742568
+Europe,urbanrate,wine_servings,0.09095623
+Europe,beer_servings,wine_servings,0.286816305
+Europe,spirit_servings,wine_servings,-0.290546027
+Europe,wine_servings,wine_servings,1
+Europe,total_litres_of_pure_alcohol,wine_servings,0.499769241
+Europe,Happiness.Score,wine_servings,0.332902244
+Europe,alcconsumption,total_litres_of_pure_alcohol,0.421154988
+Europe,incomeperperson,total_litres_of_pure_alcohol,-0.24965064
+Europe,suicideper100th,total_litres_of_pure_alcohol,0.492732278
+Europe,employrate,total_litres_of_pure_alcohol,0.039210994
+Europe,urbanrate,total_litres_of_pure_alcohol,-0.044567403
+Europe,beer_servings,total_litres_of_pure_alcohol,0.807608126
+Europe,spirit_servings,total_litres_of_pure_alcohol,0.544740953
+Europe,wine_servings,total_litres_of_pure_alcohol,0.499769241
+Europe,total_litres_of_pure_alcohol,total_litres_of_pure_alcohol,1
+Europe,Happiness.Score,total_litres_of_pure_alcohol,0.249560555
+Europe,alcconsumption,Happiness.Score,-0.177030526
+Europe,incomeperperson,Happiness.Score,0.5642633
+Europe,suicideper100th,Happiness.Score,0.054445252
+Europe,employrate,Happiness.Score,0.556289536
+Europe,urbanrate,Happiness.Score,0.551367869
+Europe,beer_servings,Happiness.Score,0.365820717
+Europe,spirit_servings,Happiness.Score,-0.279482265
+Europe,wine_servings,Happiness.Score,0.332902244
+Europe,total_litres_of_pure_alcohol,Happiness.Score,0.249560555
+Europe,Happiness.Score,Happiness.Score,1
+North America,alcconsumption,alcconsumption,1
+North America,incomeperperson,alcconsumption,0.497368385
+North America,suicideper100th,alcconsumption,-0.140536305
+North America,employrate,alcconsumption,0.362985555
+North America,urbanrate,alcconsumption,-0.051697559
+North America,beer_servings,alcconsumption,0.461005058
+North America,spirit_servings,alcconsumption,0.497431929
+North America,wine_servings,alcconsumption,0.746554415
+North America,total_litres_of_pure_alcohol,alcconsumption,0.784782412
+North America,Happiness.Score,alcconsumption,0.440728731
+North America,alcconsumption,incomeperperson,0.497368385
+North America,incomeperperson,incomeperperson,1
+North America,suicideper100th,incomeperperson,0.189353797
+North America,employrate,incomeperperson,0.556852018
+North America,urbanrate,incomeperperson,0.353142545
+North America,beer_servings,incomeperperson,0.453979291
+North America,spirit_servings,incomeperperson,-0.033229356
+North America,wine_servings,incomeperperson,0.82468393
+North America,total_litres_of_pure_alcohol,incomeperperson,0.412120278
+North America,Happiness.Score,incomeperperson,0.607640748
+North America,alcconsumption,suicideper100th,-0.140536305
+North America,incomeperperson,suicideper100th,0.189353797
+North America,suicideper100th,suicideper100th,1
+North America,employrate,suicideper100th,-0.10607449
+North America,urbanrate,suicideper100th,-0.001726967
+North America,beer_servings,suicideper100th,0.312383358
+North America,spirit_servings,suicideper100th,-0.17494343
+North America,wine_servings,suicideper100th,0.071167015
+North America,total_litres_of_pure_alcohol,suicideper100th,0.070027299
+North America,Happiness.Score,suicideper100th,0.321889933
+North America,alcconsumption,employrate,0.362985555
+North America,incomeperperson,employrate,0.556852018
+North America,suicideper100th,employrate,-0.10607449
+North America,employrate,employrate,1
+North America,urbanrate,employrate,0.004939724
+North America,beer_servings,employrate,0.127635436
+North America,spirit_servings,employrate,0.015658325
+North America,wine_servings,employrate,0.546633816
+North America,total_litres_of_pure_alcohol,employrate,0.203446146
+North America,Happiness.Score,employrate,0.521737147
+North America,alcconsumption,urbanrate,-0.051697559
+North America,incomeperperson,urbanrate,0.353142545
+North America,suicideper100th,urbanrate,-0.001726967
+North America,employrate,urbanrate,0.004939724
+North America,urbanrate,urbanrate,1
+North America,beer_servings,urbanrate,0.125508519
+North America,spirit_servings,urbanrate,-0.356228216
+North America,wine_servings,urbanrate,0.166527306
+North America,total_litres_of_pure_alcohol,urbanrate,-0.14736952
+North America,Happiness.Score,urbanrate,0.327763102
+North America,alcconsumption,beer_servings,0.461005058
+North America,incomeperperson,beer_servings,0.453979291
+North America,suicideper100th,beer_servings,0.312383358
+North America,employrate,beer_servings,0.127635436
+North America,urbanrate,beer_servings,0.125508519
+North America,beer_servings,beer_servings,1
+North America,spirit_servings,beer_servings,-0.073410899
+North America,wine_servings,beer_servings,0.409037697
+North America,total_litres_of_pure_alcohol,beer_servings,0.612514367
+North America,Happiness.Score,beer_servings,0.615340087
+North America,alcconsumption,spirit_servings,0.497431929
+North America,incomeperperson,spirit_servings,-0.033229356
+North America,suicideper100th,spirit_servings,-0.17494343
+North America,employrate,spirit_servings,0.015658325
+North America,urbanrate,spirit_servings,-0.356228216
+North America,beer_servings,spirit_servings,-0.073410899
+North America,spirit_servings,spirit_servings,1
+North America,wine_servings,spirit_servings,0.219815253
+North America,total_litres_of_pure_alcohol,spirit_servings,0.720399874
+North America,Happiness.Score,spirit_servings,-0.286084912
+North America,alcconsumption,wine_servings,0.746554415
+North America,incomeperperson,wine_servings,0.82468393
+North America,suicideper100th,wine_servings,0.071167015
+North America,employrate,wine_servings,0.546633816
+North America,urbanrate,wine_servings,0.166527306
+North America,beer_servings,wine_servings,0.409037697
+North America,spirit_servings,wine_servings,0.219815253
+North America,wine_servings,wine_servings,1
+North America,total_litres_of_pure_alcohol,wine_servings,0.608532233
+North America,Happiness.Score,wine_servings,0.543250804
+North America,alcconsumption,total_litres_of_pure_alcohol,0.784782412
+North America,incomeperperson,total_litres_of_pure_alcohol,0.412120278
+North America,suicideper100th,total_litres_of_pure_alcohol,0.070027299
+North America,employrate,total_litres_of_pure_alcohol,0.203446146
+North America,urbanrate,total_litres_of_pure_alcohol,-0.14736952
+North America,beer_servings,total_litres_of_pure_alcohol,0.612514367
+North America,spirit_servings,total_litres_of_pure_alcohol,0.720399874
+North America,wine_servings,total_litres_of_pure_alcohol,0.608532233
+North America,total_litres_of_pure_alcohol,total_litres_of_pure_alcohol,1
+North America,Happiness.Score,total_litres_of_pure_alcohol,0.267427464
+North America,alcconsumption,Happiness.Score,0.440728731
+North America,incomeperperson,Happiness.Score,0.607640748
+North America,suicideper100th,Happiness.Score,0.321889933
+North America,employrate,Happiness.Score,0.521737147
+North America,urbanrate,Happiness.Score,0.327763102
+North America,beer_servings,Happiness.Score,0.615340087
+North America,spirit_servings,Happiness.Score,-0.286084912
+North America,wine_servings,Happiness.Score,0.543250804
+North America,total_litres_of_pure_alcohol,Happiness.Score,0.267427464
+North America,Happiness.Score,Happiness.Score,1
+Oceania,alcconsumption,alcconsumption,1
+Oceania,incomeperperson,alcconsumption,0.746558133
+Oceania,suicideper100th,alcconsumption,0.32455074
+Oceania,employrate,alcconsumption,-0.018886654
+Oceania,urbanrate,alcconsumption,0.732532076
+Oceania,beer_servings,alcconsumption,0.886058834
+Oceania,spirit_servings,alcconsumption,0.294880438
+Oceania,wine_servings,alcconsumption,0.642958142
+Oceania,total_litres_of_pure_alcohol,alcconsumption,0.844833189
+Oceania,Happiness.Score,alcconsumption,-0.012977521
+Oceania,alcconsumption,incomeperperson,0.746558133
+Oceania,incomeperperson,incomeperperson,1
+Oceania,suicideper100th,incomeperperson,0.391368443
+Oceania,employrate,incomeperperson,-0.172514306
+Oceania,urbanrate,incomeperperson,0.735110371
+Oceania,beer_servings,incomeperperson,0.689165777
+Oceania,spirit_servings,incomeperperson,0.217406136
+Oceania,wine_servings,incomeperperson,0.944167364
+Oceania,total_litres_of_pure_alcohol,incomeperperson,0.840142024
+Oceania,Happiness.Score,incomeperperson,-0.296874715
+Oceania,alcconsumption,suicideper100th,0.32455074
+Oceania,incomeperperson,suicideper100th,0.391368443
+Oceania,suicideper100th,suicideper100th,1
+Oceania,employrate,suicideper100th,0.530070124
+Oceania,urbanrate,suicideper100th,0.299965701
+Oceania,beer_servings,suicideper100th,0.200222082
+Oceania,spirit_servings,suicideper100th,-0.100459085
+Oceania,wine_servings,suicideper100th,0.489897301
+Oceania,total_litres_of_pure_alcohol,suicideper100th,0.297884085
+Oceania,Happiness.Score,suicideper100th,0.25602491
+Oceania,alcconsumption,employrate,-0.018886654
+Oceania,incomeperperson,employrate,-0.172514306
+Oceania,suicideper100th,employrate,0.530070124
+Oceania,employrate,employrate,1
+Oceania,urbanrate,employrate,-0.350611158
+Oceania,beer_servings,employrate,-0.124113026
+Oceania,spirit_servings,employrate,-0.009287939
+Oceania,wine_servings,employrate,-0.086315802
+Oceania,total_litres_of_pure_alcohol,employrate,-0.095798895
+Oceania,Happiness.Score,employrate,0.23993774
+Oceania,alcconsumption,urbanrate,0.732532076
+Oceania,incomeperperson,urbanrate,0.735110371
+Oceania,suicideper100th,urbanrate,0.299965701
+Oceania,employrate,urbanrate,-0.350611158
+Oceania,urbanrate,urbanrate,1
+Oceania,beer_servings,urbanrate,0.628631917
+Oceania,spirit_servings,urbanrate,0.179158457
+Oceania,wine_servings,urbanrate,0.654540578
+Oceania,total_litres_of_pure_alcohol,urbanrate,0.675980191
+Oceania,Happiness.Score,urbanrate,-0.016054523
+Oceania,alcconsumption,beer_servings,0.886058834
+Oceania,incomeperperson,beer_servings,0.689165777
+Oceania,suicideper100th,beer_servings,0.200222082
+Oceania,employrate,beer_servings,-0.124113026
+Oceania,urbanrate,beer_servings,0.628631917
+Oceania,beer_servings,beer_servings,1
+Oceania,spirit_servings,beer_servings,0.195295081
+Oceania,wine_servings,beer_servings,0.56400206
+Oceania,total_litres_of_pure_alcohol,beer_servings,0.827819222
+Oceania,Happiness.Score,beer_servings,-0.109573138
+Oceania,alcconsumption,spirit_servings,0.294880438
+Oceania,incomeperperson,spirit_servings,0.217406136
+Oceania,suicideper100th,spirit_servings,-0.100459085
+Oceania,employrate,spirit_servings,-0.009287939
+Oceania,urbanrate,spirit_servings,0.179158457
+Oceania,beer_servings,spirit_servings,0.195295081
+Oceania,spirit_servings,spirit_servings,1
+Oceania,wine_servings,spirit_servings,0.286318067
+Oceania,total_litres_of_pure_alcohol,spirit_servings,0.585910627
+Oceania,Happiness.Score,spirit_servings,0.018126695
+Oceania,alcconsumption,wine_servings,0.642958142
+Oceania,incomeperperson,wine_servings,0.944167364
+Oceania,suicideper100th,wine_servings,0.489897301
+Oceania,employrate,wine_servings,-0.086315802
+Oceania,urbanrate,wine_servings,0.654540578
+Oceania,beer_servings,wine_servings,0.56400206
+Oceania,spirit_servings,wine_servings,0.286318067
+Oceania,wine_servings,wine_servings,1
+Oceania,total_litres_of_pure_alcohol,wine_servings,0.830676878
+Oceania,Happiness.Score,wine_servings,-0.104641968
+Oceania,alcconsumption,total_litres_of_pure_alcohol,0.844833189
+Oceania,incomeperperson,total_litres_of_pure_alcohol,0.840142024
+Oceania,suicideper100th,total_litres_of_pure_alcohol,0.297884085
+Oceania,employrate,total_litres_of_pure_alcohol,-0.095798895
+Oceania,urbanrate,total_litres_of_pure_alcohol,0.675980191
+Oceania,beer_servings,total_litres_of_pure_alcohol,0.827819222
+Oceania,spirit_servings,total_litres_of_pure_alcohol,0.585910627
+Oceania,wine_servings,total_litres_of_pure_alcohol,0.830676878
+Oceania,total_litres_of_pure_alcohol,total_litres_of_pure_alcohol,1
+Oceania,Happiness.Score,total_litres_of_pure_alcohol,-0.060027006
+Oceania,alcconsumption,Happiness.Score,-0.012977521
+Oceania,incomeperperson,Happiness.Score,-0.296874715
+Oceania,suicideper100th,Happiness.Score,0.25602491
+Oceania,employrate,Happiness.Score,0.23993774
+Oceania,urbanrate,Happiness.Score,-0.016054523
+Oceania,beer_servings,Happiness.Score,-0.109573138
+Oceania,spirit_servings,Happiness.Score,0.018126695
+Oceania,wine_servings,Happiness.Score,-0.104641968
+Oceania,total_litres_of_pure_alcohol,Happiness.Score,-0.060027006
+Oceania,Happiness.Score,Happiness.Score,1
+South America,alcconsumption,alcconsumption,1
+South America,incomeperperson,alcconsumption,0.457810657
+South America,suicideper100th,alcconsumption,0.205928881
+South America,employrate,alcconsumption,-0.186841189
+South America,urbanrate,alcconsumption,0.167944522
+South America,beer_servings,alcconsumption,0.056691368
+South America,spirit_servings,alcconsumption,0.008043023
+South America,wine_servings,alcconsumption,0.440642094
+South America,total_litres_of_pure_alcohol,alcconsumption,0.535148286
+South America,Happiness.Score,alcconsumption,0.561946635
+South America,alcconsumption,incomeperperson,0.457810657
+South America,incomeperperson,incomeperperson,1
+South America,suicideper100th,incomeperperson,-0.120797621
+South America,employrate,incomeperperson,-0.324877672
+South America,urbanrate,incomeperperson,0.761872385
+South America,beer_servings,incomeperperson,0.122432686
+South America,spirit_servings,incomeperperson,-0.495033606
+South America,wine_servings,incomeperperson,0.846800092
+South America,total_litres_of_pure_alcohol,incomeperperson,0.57856775
+South America,Happiness.Score,incomeperperson,0.617967909
+South America,alcconsumption,suicideper100th,0.205928881
+South America,incomeperperson,suicideper100th,-0.120797621
+South America,suicideper100th,suicideper100th,1
+South America,employrate,suicideper100th,-0.542233968
+South America,urbanrate,suicideper100th,-0.558098819
+South America,beer_servings,suicideper100th,-0.593635384
+South America,spirit_servings,suicideper100th,0.688522267
+South America,wine_servings,suicideper100th,-0.010491791
+South America,total_litres_of_pure_alcohol,suicideper100th,0.163973173
+South America,Happiness.Score,suicideper100th,0.191565128
+South America,alcconsumption,employrate,-0.186841189
+South America,incomeperperson,employrate,-0.324877672
+South America,suicideper100th,employrate,-0.542233968
+South America,employrate,employrate,1
+South America,urbanrate,employrate,-0.249895705
+South America,beer_servings,employrate,0.332945585
+South America,spirit_servings,employrate,-0.185269705
+South America,wine_servings,employrate,-0.238684937
+South America,total_litres_of_pure_alcohol,employrate,-0.168904477
+South America,Happiness.Score,employrate,-0.523015979
+South America,alcconsumption,urbanrate,0.167944522
+South America,incomeperperson,urbanrate,0.761872385
+South America,suicideper100th,urbanrate,-0.558098819
+South America,employrate,urbanrate,-0.249895705
+South America,urbanrate,urbanrate,1
+South America,beer_servings,urbanrate,0.43649293
+South America,spirit_servings,urbanrate,-0.671093348
+South America,wine_servings,urbanrate,0.511849064
+South America,total_litres_of_pure_alcohol,urbanrate,0.272005567
+South America,Happiness.Score,urbanrate,0.466572932
+South America,alcconsumption,beer_servings,0.056691368
+South America,incomeperperson,beer_servings,0.122432686
+South America,suicideper100th,beer_servings,-0.593635384
+South America,employrate,beer_servings,0.332945585
+South America,urbanrate,beer_servings,0.43649293
+South America,beer_servings,beer_servings,1
+South America,spirit_servings,beer_servings,-0.262214914
+South America,wine_servings,beer_servings,-0.21120097
+South America,total_litres_of_pure_alcohol,beer_servings,0.302392882
+South America,Happiness.Score,beer_servings,-0.086337248
+South America,alcconsumption,spirit_servings,0.008043023
+South America,incomeperperson,spirit_servings,-0.495033606
+South America,suicideper100th,spirit_servings,0.688522267
+South America,employrate,spirit_servings,-0.185269705
+South America,urbanrate,spirit_servings,-0.671093348
+South America,beer_servings,spirit_servings,-0.262214914
+South America,spirit_servings,spirit_servings,1
+South America,wine_servings,spirit_servings,-0.458240893
+South America,total_litres_of_pure_alcohol,spirit_servings,0.204301792
+South America,Happiness.Score,spirit_servings,-0.05693476
+South America,alcconsumption,wine_servings,0.440642094
+South America,incomeperperson,wine_servings,0.846800092
+South America,suicideper100th,wine_servings,-0.010491791
+South America,employrate,wine_servings,-0.238684937
+South America,urbanrate,wine_servings,0.511849064
+South America,beer_servings,wine_servings,-0.21120097
+South America,spirit_servings,wine_servings,-0.458240893
+South America,wine_servings,wine_servings,1
+South America,total_litres_of_pure_alcohol,wine_servings,0.520602146
+South America,Happiness.Score,wine_servings,0.414665745
+South America,alcconsumption,total_litres_of_pure_alcohol,0.535148286
+South America,incomeperperson,total_litres_of_pure_alcohol,0.57856775
+South America,suicideper100th,total_litres_of_pure_alcohol,0.163973173
+South America,employrate,total_litres_of_pure_alcohol,-0.168904477
+South America,urbanrate,total_litres_of_pure_alcohol,0.272005567
+South America,beer_servings,total_litres_of_pure_alcohol,0.302392882
+South America,spirit_servings,total_litres_of_pure_alcohol,0.204301792
+South America,wine_servings,total_litres_of_pure_alcohol,0.520602146
+South America,total_litres_of_pure_alcohol,total_litres_of_pure_alcohol,1
+South America,Happiness.Score,total_litres_of_pure_alcohol,0.332352039
+South America,alcconsumption,Happiness.Score,0.561946635
+South America,incomeperperson,Happiness.Score,0.617967909
+South America,suicideper100th,Happiness.Score,0.191565128
+South America,employrate,Happiness.Score,-0.523015979
+South America,urbanrate,Happiness.Score,0.466572932
+South America,beer_servings,Happiness.Score,-0.086337248
+South America,spirit_servings,Happiness.Score,-0.05693476
+South America,wine_servings,Happiness.Score,0.414665745
+South America,total_litres_of_pure_alcohol,Happiness.Score,0.332352039
+South America,Happiness.Score,Happiness.Score,1
