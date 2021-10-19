@@ -1,4 +1,4 @@
-,Var1,Var2,Freq
+Continent,Var1,Var2,Correlation
 All,alcconsumption,alcconsumption,1
 All,incomeperperson,alcconsumption,0.247642777
 All,suicideper100th,alcconsumption,0.343219682
