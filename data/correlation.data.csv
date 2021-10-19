@@ -1,0 +1,568 @@
+Continent,Measure1,Measure2,Correlation
+All,Income,Income,1
+All,Suicide,Income,0.01
+All,Employment,Income,-0.02
+All,Urban Rate,Income,0.54
+All,Beer Servings,Income,0.27
+All,Spirit Servings,Income,0.07
+All,Wine Servings,Income,0.43
+All,Alcohol (Litres),Income,0.28
+All,Happiness Score,Income,0.53
+All,Income,Suicide,0.01
+All,Suicide,Suicide,1
+All,Employment,Suicide,0.02
+All,Urban Rate,Suicide,-0.13
+All,Beer Servings,Suicide,0.19
+All,Spirit Servings,Suicide,0.22
+All,Wine Servings,Suicide,0.11
+All,Alcohol (Litres),Suicide,0.32
+All,Happiness Score,Suicide,0.09
+All,Income,Employment,-0.02
+All,Suicide,Employment,0.02
+All,Employment,Employment,1
+All,Urban Rate,Employment,-0.3
+All,Beer Servings,Employment,-0.15
+All,Spirit Servings,Employment,-0.16
+All,Wine Servings,Employment,-0.16
+All,Alcohol (Litres),Employment,-0.11
+All,Happiness Score,Employment,-0.03
+All,Income,Urban Rate,0.54
+All,Suicide,Urban Rate,-0.13
+All,Employment,Urban Rate,-0.3
+All,Urban Rate,Urban Rate,1
+All,Beer Servings,Urban Rate,0.4
+All,Spirit Servings,Urban Rate,0.2
+All,Wine Servings,Urban Rate,0.39
+All,Alcohol (Litres),Urban Rate,0.34
+All,Happiness Score,Urban Rate,0.47
+All,Income,Beer Servings,0.27
+All,Suicide,Beer Servings,0.19
+All,Employment,Beer Servings,-0.15
+All,Urban Rate,Beer Servings,0.4
+All,Beer Servings,Beer Servings,1
+All,Spirit Servings,Beer Servings,0.46
+All,Wine Servings,Beer Servings,0.53
+All,Alcohol (Litres),Beer Servings,0.84
+All,Happiness Score,Beer Servings,0.4
+All,Income,Spirit Servings,0.07
+All,Suicide,Spirit Servings,0.22
+All,Employment,Spirit Servings,-0.16
+All,Urban Rate,Spirit Servings,0.2
+All,Beer Servings,Spirit Servings,0.46
+All,Spirit Servings,Spirit Servings,1
+All,Wine Servings,Spirit Servings,0.19
+All,Alcohol (Litres),Spirit Servings,0.65
+All,Happiness Score,Spirit Servings,0.18
+All,Income,Wine Servings,0.43
+All,Suicide,Wine Servings,0.11
+All,Employment,Wine Servings,-0.16
+All,Urban Rate,Wine Servings,0.39
+All,Beer Servings,Wine Servings,0.53
+All,Spirit Servings,Wine Servings,0.19
+All,Wine Servings,Wine Servings,1
+All,Alcohol (Litres),Wine Servings,0.67
+All,Happiness Score,Wine Servings,0.4
+All,Income,Alcohol (Litres),0.28
+All,Suicide,Alcohol (Litres),0.32
+All,Employment,Alcohol (Litres),-0.11
+All,Urban Rate,Alcohol (Litres),0.34
+All,Beer Servings,Alcohol (Litres),0.84
+All,Spirit Servings,Alcohol (Litres),0.65
+All,Wine Servings,Alcohol (Litres),0.67
+All,Alcohol (Litres),Alcohol (Litres),1
+All,Happiness Score,Alcohol (Litres),0.36
+All,Income,Happiness Score,0.53
+All,Suicide,Happiness Score,0.09
+All,Employment,Happiness Score,-0.03
+All,Urban Rate,Happiness Score,0.47
+All,Beer Servings,Happiness Score,0.4
+All,Spirit Servings,Happiness Score,0.18
+All,Wine Servings,Happiness Score,0.4
+All,Alcohol (Litres),Happiness Score,0.36
+All,Happiness Score,Happiness Score,1
+Africa,Income,Income,1
+Africa,Suicide,Income,-0.09
+Africa,Employment,Income,-0.4
+Africa,Urban Rate,Income,0.45
+Africa,Beer Servings,Income,0.41
+Africa,Spirit Servings,Income,0.12
+Africa,Wine Servings,Income,0.59
+Africa,Alcohol (Litres),Income,0.18
+Africa,Happiness Score,Income,0.27
+Africa,Income,Suicide,-0.09
+Africa,Suicide,Suicide,1
+Africa,Employment,Suicide,0.24
+Africa,Urban Rate,Suicide,-0.26
+Africa,Beer Servings,Suicide,0.1
+Africa,Spirit Servings,Suicide,0
+Africa,Wine Servings,Suicide,0.05
+Africa,Alcohol (Litres),Suicide,0.29
+Africa,Happiness Score,Suicide,-0.1
+Africa,Income,Employment,-0.4
+Africa,Suicide,Employment,0.24
+Africa,Employment,Employment,1
+Africa,Urban Rate,Employment,-0.48
+Africa,Beer Servings,Employment,-0.24
+Africa,Spirit Servings,Employment,-0.06
+Africa,Wine Servings,Employment,-0.11
+Africa,Alcohol (Litres),Employment,0.02
+Africa,Happiness Score,Employment,-0.43
+Africa,Income,Urban Rate,0.45
+Africa,Suicide,Urban Rate,-0.26
+Africa,Employment,Urban Rate,-0.48
+Africa,Urban Rate,Urban Rate,1
+Africa,Beer Servings,Urban Rate,0.29
+Africa,Spirit Servings,Urban Rate,0.41
+Africa,Wine Servings,Urban Rate,0.26
+Africa,Alcohol (Litres),Urban Rate,0.06
+Africa,Happiness Score,Urban Rate,0.17
+Africa,Income,Beer Servings,0.41
+Africa,Suicide,Beer Servings,0.1
+Africa,Employment,Beer Servings,-0.24
+Africa,Urban Rate,Beer Servings,0.29
+Africa,Beer Servings,Beer Servings,1
+Africa,Spirit Servings,Beer Servings,0.41
+Africa,Wine Servings,Beer Servings,0.31
+Africa,Alcohol (Litres),Beer Servings,0.64
+Africa,Happiness Score,Beer Servings,0.12
+Africa,Income,Spirit Servings,0.12
+Africa,Suicide,Spirit Servings,0
+Africa,Employment,Spirit Servings,-0.06
+Africa,Urban Rate,Spirit Servings,0.41
+Africa,Beer Servings,Spirit Servings,0.41
+Africa,Spirit Servings,Spirit Servings,1
+Africa,Wine Servings,Spirit Servings,0.2
+Africa,Alcohol (Litres),Spirit Servings,0.31
+Africa,Happiness Score,Spirit Servings,-0.1
+Africa,Income,Wine Servings,0.59
+Africa,Suicide,Wine Servings,0.05
+Africa,Employment,Wine Servings,-0.11
+Africa,Urban Rate,Wine Servings,0.26
+Africa,Beer Servings,Wine Servings,0.31
+Africa,Spirit Servings,Wine Servings,0.2
+Africa,Wine Servings,Wine Servings,1
+Africa,Alcohol (Litres),Wine Servings,0.31
+Africa,Happiness Score,Wine Servings,0.01
+Africa,Income,Alcohol (Litres),0.18
+Africa,Suicide,Alcohol (Litres),0.29
+Africa,Employment,Alcohol (Litres),0.02
+Africa,Urban Rate,Alcohol (Litres),0.06
+Africa,Beer Servings,Alcohol (Litres),0.64
+Africa,Spirit Servings,Alcohol (Litres),0.31
+Africa,Wine Servings,Alcohol (Litres),0.31
+Africa,Alcohol (Litres),Alcohol (Litres),1
+Africa,Happiness Score,Alcohol (Litres),0.12
+Africa,Income,Happiness Score,0.27
+Africa,Suicide,Happiness Score,-0.1
+Africa,Employment,Happiness Score,-0.43
+Africa,Urban Rate,Happiness Score,0.17
+Africa,Beer Servings,Happiness Score,0.12
+Africa,Spirit Servings,Happiness Score,-0.1
+Africa,Wine Servings,Happiness Score,0.01
+Africa,Alcohol (Litres),Happiness Score,0.12
+Africa,Happiness Score,Happiness Score,1
+Asia,Income,Income,1
+Asia,Suicide,Income,-0.14
+Asia,Employment,Income,0.15
+Asia,Urban Rate,Income,0.64
+Asia,Beer Servings,Income,0.17
+Asia,Spirit Servings,Income,0.09
+Asia,Wine Servings,Income,0.01
+Asia,Alcohol (Litres),Income,0.21
+Asia,Happiness Score,Income,0.52
+Asia,Income,Suicide,-0.14
+Asia,Suicide,Suicide,1
+Asia,Employment,Suicide,0.13
+Asia,Urban Rate,Suicide,-0.39
+Asia,Beer Servings,Suicide,0.36
+Asia,Spirit Servings,Suicide,0.22
+Asia,Wine Servings,Suicide,0.33
+Asia,Alcohol (Litres),Suicide,0.46
+Asia,Happiness Score,Suicide,0.09
+Asia,Income,Employment,0.15
+Asia,Suicide,Employment,0.13
+Asia,Employment,Employment,1
+Asia,Urban Rate,Employment,-0.19
+Asia,Beer Servings,Employment,0.26
+Asia,Spirit Servings,Employment,0.19
+Asia,Wine Servings,Employment,0.22
+Asia,Alcohol (Litres),Employment,0.26
+Asia,Happiness Score,Employment,0.15
+Asia,Income,Urban Rate,0.64
+Asia,Suicide,Urban Rate,-0.39
+Asia,Employment,Urban Rate,-0.19
+Asia,Urban Rate,Urban Rate,1
+Asia,Beer Servings,Urban Rate,0.1
+Asia,Spirit Servings,Urban Rate,-0.02
+Asia,Wine Servings,Urban Rate,-0.02
+Asia,Alcohol (Litres),Urban Rate,0.07
+Asia,Happiness Score,Urban Rate,0.33
+Asia,Income,Beer Servings,0.17
+Asia,Suicide,Beer Servings,0.36
+Asia,Employment,Beer Servings,0.26
+Asia,Urban Rate,Beer Servings,0.1
+Asia,Beer Servings,Beer Servings,1
+Asia,Spirit Servings,Beer Servings,0.57
+Asia,Wine Servings,Beer Servings,0.21
+Asia,Alcohol (Litres),Beer Servings,0.87
+Asia,Happiness Score,Beer Servings,0.11
+Asia,Income,Spirit Servings,0.09
+Asia,Suicide,Spirit Servings,0.22
+Asia,Employment,Spirit Servings,0.19
+Asia,Urban Rate,Spirit Servings,-0.02
+Asia,Beer Servings,Spirit Servings,0.57
+Asia,Spirit Servings,Spirit Servings,1
+Asia,Wine Servings,Spirit Servings,0.01
+Asia,Alcohol (Litres),Spirit Servings,0.7
+Asia,Happiness Score,Spirit Servings,0.11
+Asia,Income,Wine Servings,0.01
+Asia,Suicide,Wine Servings,0.33
+Asia,Employment,Wine Servings,0.22
+Asia,Urban Rate,Wine Servings,-0.02
+Asia,Beer Servings,Wine Servings,0.21
+Asia,Spirit Servings,Wine Servings,0.01
+Asia,Wine Servings,Wine Servings,1
+Asia,Alcohol (Litres),Wine Servings,0.39
+Asia,Happiness Score,Wine Servings,-0.02
+Asia,Income,Alcohol (Litres),0.21
+Asia,Suicide,Alcohol (Litres),0.46
+Asia,Employment,Alcohol (Litres),0.26
+Asia,Urban Rate,Alcohol (Litres),0.07
+Asia,Beer Servings,Alcohol (Litres),0.87
+Asia,Spirit Servings,Alcohol (Litres),0.7
+Asia,Wine Servings,Alcohol (Litres),0.39
+Asia,Alcohol (Litres),Alcohol (Litres),1
+Asia,Happiness Score,Alcohol (Litres),0.12
+Asia,Income,Happiness Score,0.52
+Asia,Suicide,Happiness Score,0.09
+Asia,Employment,Happiness Score,0.15
+Asia,Urban Rate,Happiness Score,0.33
+Asia,Beer Servings,Happiness Score,0.11
+Asia,Spirit Servings,Happiness Score,0.11
+Asia,Wine Servings,Happiness Score,-0.02
+Asia,Alcohol (Litres),Happiness Score,0.12
+Asia,Happiness Score,Happiness Score,1
+Europe,Income,Income,1
+Europe,Suicide,Income,-0.13
+Europe,Employment,Income,0.35
+Europe,Urban Rate,Income,0.64
+Europe,Beer Servings,Income,-0.14
+Europe,Spirit Servings,Income,-0.51
+Europe,Wine Servings,Income,0.14
+Europe,Alcohol (Litres),Income,-0.25
+Europe,Happiness Score,Income,0.56
+Europe,Income,Suicide,-0.13
+Europe,Suicide,Suicide,1
+Europe,Employment,Suicide,0.03
+Europe,Urban Rate,Suicide,-0.05
+Europe,Beer Servings,Suicide,0.41
+Europe,Spirit Servings,Suicide,0.54
+Europe,Wine Servings,Suicide,-0.12
+Europe,Alcohol (Litres),Suicide,0.49
+Europe,Happiness Score,Suicide,0.05
+Europe,Income,Employment,0.35
+Europe,Suicide,Employment,0.03
+Europe,Employment,Employment,1
+Europe,Urban Rate,Employment,0.27
+Europe,Beer Servings,Employment,0.16
+Europe,Spirit Servings,Employment,-0.24
+Europe,Wine Servings,Employment,0.1
+Europe,Alcohol (Litres),Employment,0.04
+Europe,Happiness Score,Employment,0.56
+Europe,Income,Urban Rate,0.64
+Europe,Suicide,Urban Rate,-0.05
+Europe,Employment,Urban Rate,0.27
+Europe,Urban Rate,Urban Rate,1
+Europe,Beer Servings,Urban Rate,0.01
+Europe,Spirit Servings,Urban Rate,-0.22
+Europe,Wine Servings,Urban Rate,0.09
+Europe,Alcohol (Litres),Urban Rate,-0.04
+Europe,Happiness Score,Urban Rate,0.55
+Europe,Income,Beer Servings,-0.14
+Europe,Suicide,Beer Servings,0.41
+Europe,Employment,Beer Servings,0.16
+Europe,Urban Rate,Beer Servings,0.01
+Europe,Beer Servings,Beer Servings,1
+Europe,Spirit Servings,Beer Servings,0.28
+Europe,Wine Servings,Beer Servings,0.29
+Europe,Alcohol (Litres),Beer Servings,0.81
+Europe,Happiness Score,Beer Servings,0.37
+Europe,Income,Spirit Servings,-0.51
+Europe,Suicide,Spirit Servings,0.54
+Europe,Employment,Spirit Servings,-0.24
+Europe,Urban Rate,Spirit Servings,-0.22
+Europe,Beer Servings,Spirit Servings,0.28
+Europe,Spirit Servings,Spirit Servings,1
+Europe,Wine Servings,Spirit Servings,-0.29
+Europe,Alcohol (Litres),Spirit Servings,0.54
+Europe,Happiness Score,Spirit Servings,-0.28
+Europe,Income,Wine Servings,0.14
+Europe,Suicide,Wine Servings,-0.12
+Europe,Employment,Wine Servings,0.1
+Europe,Urban Rate,Wine Servings,0.09
+Europe,Beer Servings,Wine Servings,0.29
+Europe,Spirit Servings,Wine Servings,-0.29
+Europe,Wine Servings,Wine Servings,1
+Europe,Alcohol (Litres),Wine Servings,0.5
+Europe,Happiness Score,Wine Servings,0.33
+Europe,Income,Alcohol (Litres),-0.25
+Europe,Suicide,Alcohol (Litres),0.49
+Europe,Employment,Alcohol (Litres),0.04
+Europe,Urban Rate,Alcohol (Litres),-0.04
+Europe,Beer Servings,Alcohol (Litres),0.81
+Europe,Spirit Servings,Alcohol (Litres),0.54
+Europe,Wine Servings,Alcohol (Litres),0.5
+Europe,Alcohol (Litres),Alcohol (Litres),1
+Europe,Happiness Score,Alcohol (Litres),0.25
+Europe,Income,Happiness Score,0.56
+Europe,Suicide,Happiness Score,0.05
+Europe,Employment,Happiness Score,0.56
+Europe,Urban Rate,Happiness Score,0.55
+Europe,Beer Servings,Happiness Score,0.37
+Europe,Spirit Servings,Happiness Score,-0.28
+Europe,Wine Servings,Happiness Score,0.33
+Europe,Alcohol (Litres),Happiness Score,0.25
+Europe,Happiness Score,Happiness Score,1
+North America,Income,Income,1
+North America,Suicide,Income,0.19
+North America,Employment,Income,0.56
+North America,Urban Rate,Income,0.35
+North America,Beer Servings,Income,0.45
+North America,Spirit Servings,Income,-0.03
+North America,Wine Servings,Income,0.82
+North America,Alcohol (Litres),Income,0.41
+North America,Happiness Score,Income,0.61
+North America,Income,Suicide,0.19
+North America,Suicide,Suicide,1
+North America,Employment,Suicide,-0.11
+North America,Urban Rate,Suicide,0
+North America,Beer Servings,Suicide,0.31
+North America,Spirit Servings,Suicide,-0.17
+North America,Wine Servings,Suicide,0.07
+North America,Alcohol (Litres),Suicide,0.07
+North America,Happiness Score,Suicide,0.32
+North America,Income,Employment,0.56
+North America,Suicide,Employment,-0.11
+North America,Employment,Employment,1
+North America,Urban Rate,Employment,0
+North America,Beer Servings,Employment,0.13
+North America,Spirit Servings,Employment,0.02
+North America,Wine Servings,Employment,0.55
+North America,Alcohol (Litres),Employment,0.2
+North America,Happiness Score,Employment,0.52
+North America,Income,Urban Rate,0.35
+North America,Suicide,Urban Rate,0
+North America,Employment,Urban Rate,0
+North America,Urban Rate,Urban Rate,1
+North America,Beer Servings,Urban Rate,0.13
+North America,Spirit Servings,Urban Rate,-0.36
+North America,Wine Servings,Urban Rate,0.17
+North America,Alcohol (Litres),Urban Rate,-0.15
+North America,Happiness Score,Urban Rate,0.33
+North America,Income,Beer Servings,0.45
+North America,Suicide,Beer Servings,0.31
+North America,Employment,Beer Servings,0.13
+North America,Urban Rate,Beer Servings,0.13
+North America,Beer Servings,Beer Servings,1
+North America,Spirit Servings,Beer Servings,-0.07
+North America,Wine Servings,Beer Servings,0.41
+North America,Alcohol (Litres),Beer Servings,0.61
+North America,Happiness Score,Beer Servings,0.62
+North America,Income,Spirit Servings,-0.03
+North America,Suicide,Spirit Servings,-0.17
+North America,Employment,Spirit Servings,0.02
+North America,Urban Rate,Spirit Servings,-0.36
+North America,Beer Servings,Spirit Servings,-0.07
+North America,Spirit Servings,Spirit Servings,1
+North America,Wine Servings,Spirit Servings,0.22
+North America,Alcohol (Litres),Spirit Servings,0.72
+North America,Happiness Score,Spirit Servings,-0.29
+North America,Income,Wine Servings,0.82
+North America,Suicide,Wine Servings,0.07
+North America,Employment,Wine Servings,0.55
+North America,Urban Rate,Wine Servings,0.17
+North America,Beer Servings,Wine Servings,0.41
+North America,Spirit Servings,Wine Servings,0.22
+North America,Wine Servings,Wine Servings,1
+North America,Alcohol (Litres),Wine Servings,0.61
+North America,Happiness Score,Wine Servings,0.54
+North America,Income,Alcohol (Litres),0.41
+North America,Suicide,Alcohol (Litres),0.07
+North America,Employment,Alcohol (Litres),0.2
+North America,Urban Rate,Alcohol (Litres),-0.15
+North America,Beer Servings,Alcohol (Litres),0.61
+North America,Spirit Servings,Alcohol (Litres),0.72
+North America,Wine Servings,Alcohol (Litres),0.61
+North America,Alcohol (Litres),Alcohol (Litres),1
+North America,Happiness Score,Alcohol (Litres),0.27
+North America,Income,Happiness Score,0.61
+North America,Suicide,Happiness Score,0.32
+North America,Employment,Happiness Score,0.52
+North America,Urban Rate,Happiness Score,0.33
+North America,Beer Servings,Happiness Score,0.62
+North America,Spirit Servings,Happiness Score,-0.29
+North America,Wine Servings,Happiness Score,0.54
+North America,Alcohol (Litres),Happiness Score,0.27
+North America,Happiness Score,Happiness Score,1
+Oceania,Income,Income,1
+Oceania,Suicide,Income,0.39
+Oceania,Employment,Income,-0.17
+Oceania,Urban Rate,Income,0.74
+Oceania,Beer Servings,Income,0.69
+Oceania,Spirit Servings,Income,0.22
+Oceania,Wine Servings,Income,0.94
+Oceania,Alcohol (Litres),Income,0.84
+Oceania,Happiness Score,Income,-0.3
+Oceania,Income,Suicide,0.39
+Oceania,Suicide,Suicide,1
+Oceania,Employment,Suicide,0.53
+Oceania,Urban Rate,Suicide,0.3
+Oceania,Beer Servings,Suicide,0.2
+Oceania,Spirit Servings,Suicide,-0.1
+Oceania,Wine Servings,Suicide,0.49
+Oceania,Alcohol (Litres),Suicide,0.3
+Oceania,Happiness Score,Suicide,0.26
+Oceania,Income,Employment,-0.17
+Oceania,Suicide,Employment,0.53
+Oceania,Employment,Employment,1
+Oceania,Urban Rate,Employment,-0.35
+Oceania,Beer Servings,Employment,-0.12
+Oceania,Spirit Servings,Employment,-0.01
+Oceania,Wine Servings,Employment,-0.09
+Oceania,Alcohol (Litres),Employment,-0.1
+Oceania,Happiness Score,Employment,0.24
+Oceania,Income,Urban Rate,0.74
+Oceania,Suicide,Urban Rate,0.3
+Oceania,Employment,Urban Rate,-0.35
+Oceania,Urban Rate,Urban Rate,1
+Oceania,Beer Servings,Urban Rate,0.63
+Oceania,Spirit Servings,Urban Rate,0.18
+Oceania,Wine Servings,Urban Rate,0.65
+Oceania,Alcohol (Litres),Urban Rate,0.68
+Oceania,Happiness Score,Urban Rate,-0.02
+Oceania,Income,Beer Servings,0.69
+Oceania,Suicide,Beer Servings,0.2
+Oceania,Employment,Beer Servings,-0.12
+Oceania,Urban Rate,Beer Servings,0.63
+Oceania,Beer Servings,Beer Servings,1
+Oceania,Spirit Servings,Beer Servings,0.2
+Oceania,Wine Servings,Beer Servings,0.56
+Oceania,Alcohol (Litres),Beer Servings,0.83
+Oceania,Happiness Score,Beer Servings,-0.11
+Oceania,Income,Spirit Servings,0.22
+Oceania,Suicide,Spirit Servings,-0.1
+Oceania,Employment,Spirit Servings,-0.01
+Oceania,Urban Rate,Spirit Servings,0.18
+Oceania,Beer Servings,Spirit Servings,0.2
+Oceania,Spirit Servings,Spirit Servings,1
+Oceania,Wine Servings,Spirit Servings,0.29
+Oceania,Alcohol (Litres),Spirit Servings,0.59
+Oceania,Happiness Score,Spirit Servings,0.02
+Oceania,Income,Wine Servings,0.94
+Oceania,Suicide,Wine Servings,0.49
+Oceania,Employment,Wine Servings,-0.09
+Oceania,Urban Rate,Wine Servings,0.65
+Oceania,Beer Servings,Wine Servings,0.56
+Oceania,Spirit Servings,Wine Servings,0.29
+Oceania,Wine Servings,Wine Servings,1
+Oceania,Alcohol (Litres),Wine Servings,0.83
+Oceania,Happiness Score,Wine Servings,-0.1
+Oceania,Income,Alcohol (Litres),0.84
+Oceania,Suicide,Alcohol (Litres),0.3
+Oceania,Employment,Alcohol (Litres),-0.1
+Oceania,Urban Rate,Alcohol (Litres),0.68
+Oceania,Beer Servings,Alcohol (Litres),0.83
+Oceania,Spirit Servings,Alcohol (Litres),0.59
+Oceania,Wine Servings,Alcohol (Litres),0.83
+Oceania,Alcohol (Litres),Alcohol (Litres),1
+Oceania,Happiness Score,Alcohol (Litres),-0.06
+Oceania,Income,Happiness Score,-0.3
+Oceania,Suicide,Happiness Score,0.26
+Oceania,Employment,Happiness Score,0.24
+Oceania,Urban Rate,Happiness Score,-0.02
+Oceania,Beer Servings,Happiness Score,-0.11
+Oceania,Spirit Servings,Happiness Score,0.02
+Oceania,Wine Servings,Happiness Score,-0.1
+Oceania,Alcohol (Litres),Happiness Score,-0.06
+Oceania,Happiness Score,Happiness Score,1
+South America,Income,Income,1
+South America,Suicide,Income,-0.12
+South America,Employment,Income,-0.32
+South America,Urban Rate,Income,0.76
+South America,Beer Servings,Income,0.12
+South America,Spirit Servings,Income,-0.5
+South America,Wine Servings,Income,0.85
+South America,Alcohol (Litres),Income,0.58
+South America,Happiness Score,Income,0.62
+South America,Income,Suicide,-0.12
+South America,Suicide,Suicide,1
+South America,Employment,Suicide,-0.54
+South America,Urban Rate,Suicide,-0.56
+South America,Beer Servings,Suicide,-0.59
+South America,Spirit Servings,Suicide,0.69
+South America,Wine Servings,Suicide,-0.01
+South America,Alcohol (Litres),Suicide,0.16
+South America,Happiness Score,Suicide,0.19
+South America,Income,Employment,-0.32
+South America,Suicide,Employment,-0.54
+South America,Employment,Employment,1
+South America,Urban Rate,Employment,-0.25
+South America,Beer Servings,Employment,0.33
+South America,Spirit Servings,Employment,-0.19
+South America,Wine Servings,Employment,-0.24
+South America,Alcohol (Litres),Employment,-0.17
+South America,Happiness Score,Employment,-0.52
+South America,Income,Urban Rate,0.76
+South America,Suicide,Urban Rate,-0.56
+South America,Employment,Urban Rate,-0.25
+South America,Urban Rate,Urban Rate,1
+South America,Beer Servings,Urban Rate,0.44
+South America,Spirit Servings,Urban Rate,-0.67
+South America,Wine Servings,Urban Rate,0.51
+South America,Alcohol (Litres),Urban Rate,0.27
+South America,Happiness Score,Urban Rate,0.47
+South America,Income,Beer Servings,0.12
+South America,Suicide,Beer Servings,-0.59
+South America,Employment,Beer Servings,0.33
+South America,Urban Rate,Beer Servings,0.44
+South America,Beer Servings,Beer Servings,1
+South America,Spirit Servings,Beer Servings,-0.26
+South America,Wine Servings,Beer Servings,-0.21
+South America,Alcohol (Litres),Beer Servings,0.3
+South America,Happiness Score,Beer Servings,-0.09
+South America,Income,Spirit Servings,-0.5
+South America,Suicide,Spirit Servings,0.69
+South America,Employment,Spirit Servings,-0.19
+South America,Urban Rate,Spirit Servings,-0.67
+South America,Beer Servings,Spirit Servings,-0.26
+South America,Spirit Servings,Spirit Servings,1
+South America,Wine Servings,Spirit Servings,-0.46
+South America,Alcohol (Litres),Spirit Servings,0.2
+South America,Happiness Score,Spirit Servings,-0.06
+South America,Income,Wine Servings,0.85
+South America,Suicide,Wine Servings,-0.01
+South America,Employment,Wine Servings,-0.24
+South America,Urban Rate,Wine Servings,0.51
+South America,Beer Servings,Wine Servings,-0.21
+South America,Spirit Servings,Wine Servings,-0.46
+South America,Wine Servings,Wine Servings,1
+South America,Alcohol (Litres),Wine Servings,0.52
+South America,Happiness Score,Wine Servings,0.41
+South America,Income,Alcohol (Litres),0.58
+South America,Suicide,Alcohol (Litres),0.16
+South America,Employment,Alcohol (Litres),-0.17
+South America,Urban Rate,Alcohol (Litres),0.27
+South America,Beer Servings,Alcohol (Litres),0.3
+South America,Spirit Servings,Alcohol (Litres),0.2
+South America,Wine Servings,Alcohol (Litres),0.52
+South America,Alcohol (Litres),Alcohol (Litres),1
+South America,Happiness Score,Alcohol (Litres),0.33
+South America,Income,Happiness Score,0.62
+South America,Suicide,Happiness Score,0.19
+South America,Employment,Happiness Score,-0.52
+South America,Urban Rate,Happiness Score,0.47
+South America,Beer Servings,Happiness Score,-0.09
+South America,Spirit Servings,Happiness Score,-0.06
+South America,Wine Servings,Happiness Score,0.41
+South America,Alcohol (Litres),Happiness Score,0.33
+South America,Happiness Score,Happiness Score,1
