@@ -20,18 +20,66 @@
 
 </head>
 
-<body>
+<body> 
 
  <div class="page">
 
    <!-- pure grid group -->
     <div class="pure-g">
       <div class="pure-u-1-1">
-        <h1>Alcohol Consumption around the World</h1>
-        <p>This visualisation explores the level of alcohol consumption around the world and the various factors impacted.</p>
+        <h1>ALCOHOL CONSUMPTION AROUND THE WORLD</h1>
       </div>
     </div>
   <!-- end pure grid group -->
+
+  <!-- pure grid group -->
+  <div class="pure-g">
+    <div class="pure-u-1-2">
+      <p>
+        This dashboard explores the level of alcohol consumption by people of various countries and continents around 
+        the world and the various related factors. This helps readers, and specifically those who consume alcohol or 
+        are interested in the domain, in understanding a multitude of factors which highlight certain trends one sees 
+        in their own drinking patterns or those around them. 
+       <br> 
+       <br> 
+        We will first obtain an overview of relative consumption between different countries through the use of a choropleth 
+        map where the Pure Alcohol in Litres has been normalised based on each country's average.
+       <br> 
+       <br>
+        Next, we will gauge how the different factors (explained on the right) are related using a correlation plot. Interesting 
+        patterns observed will be further explored as we move down the dashboard.
+      </p>  
+    </div>
+   
+    <div class="pure-u-1-2">
+      <p>
+        The factors explored include:
+        <ul>
+          <li><span class="bold">Country</span></li>
+          <li><span class="bold">Continent</span></li>
+          <li><span class="bold">Income per Person:</span> <span class = 'small-font'>GDP per capita in constant US$. </span></li>
+          <li><span class="bold">Alcohol Comsumption:</span> <span class = 'small-font'>Per capita consumption in litres pure alcohol.</span></li>
+          <li><span class="bold">Suicide per 100th:</span> <span class = 'small-font'>Suicide per standard population 100,000 Mortality </span></li>
+          <li><span class="bold">Employment Rate:</span> <span class = 'small-font'>Employees age 15+ as a percentage of total population. </span></li>
+          <li><span class="bold">Urban Rate:</span> <span class = 'small-font'>Urban population as a percentage of total population. </span></li>
+          <li><span class="bold">Happiness Score:</span> <span class = 'small-font'>Average happiness rating out of 10. </span></li>
+          <li><span class="bold">Beer Servings:</span> <span class = 'small-font'>Average annual serving sizes of beer per person. </span></li>
+          <li><span class="bold">Wine Servings:</span> <span class = 'small-font'>Average annual serving sizes of wine per person. </span></li>
+          <li><span class="bold">Spirit Servings:</span> <span class = 'small-font'>Average annual serving sizes of spirit per person. </span></li>
+        </ul>  
+      </p>
+    </div>
+  </div>
+
+<!-- end pure grid group -->
+
+  <!-- pure grid group -->
+  <div class="pure-g">
+    <div class="pure-u-1-1">
+      <h2>How Does Alcohol Consumption Differ in Different Countries?</h2>
+    </div>
+  </div>
+<!-- end pure grid group -->
 
     <!-- pure grid group -->
     <div class="pure-g">
@@ -43,29 +91,73 @@
 
     <!-- pure grid group -->
     <div class="pure-g">
-        <div class="pure-u-1-4">
-          <div class="description description-right">
-            <h2>Section title</h2>
-            <p>text.</p>
-          </div>
-        </div>    
-        <div class="pure-u-3-4">
-          <div id="vis2"  class="vis-container"></div>
+    
+        <div class="pure-u-1-2">
+          <div id="vis5"  class="vis-container"></div>
         </div>  
+
+        <div class="pure-u-1-2">
+          <div class="description description-right">
+            
+            <p> In the above map, higher consumption is highlighted through darker colours, in which two specific countries, <span class="bold">Belarus</span> and 
+              <span class="bold">Poland</span> stand out as having the greatest consumption.
+              <br> 
+              <br> 
+              In contrast, countries where <span style="background-color: #aefcf4">alcohol is illegal (dry countries)</span>, seen in areas of Asia and Africa, are also highlighted 
+              in a pale blue colour which also brings to attention contrasting viewpoints amongst neighbouring countries.
+              <br> 
+              <br>
+              Greatest consumers in each continent:
+              <br>
+              <ul>
+                <li><span class="Europe_text">Europe</span> consumes the most alcohol, on average, with <span class="bold">Belarus</span> consuming the greatest global average of <b>14.2L</b>. </li>
+                <li> <span class="NorthAm_text">North America:</span> <span class="bold"> Grenada </span> with <b>11.9L.</b></li>
+                <li> <span class="SouthAm_text">South America:</span> <span class="bold"> Argentina </span> with <b>8.3L.</b></li>
+                <li> <span class="Africa_text">Africa:</span>  <span class="bold"> Nigeria </span> with <b>9.1L.</b></li>
+                <li> <span class="Asia_text">Asia:</span> <span class="bold"> South Korea </span> with <b>9.8L.</b></li>
+                <li> <span class="Oceania_text">Oceania:</span> <span class="bold"> Australia </span> with <b>10.4L.</b></li>
+              </ul>  
+            </p>
+          </div>
     </div>
     <!-- end pure grid group -->
+
+      <!-- pure grid group -->
+      <div class="pure-g">
+        <div class="pure-u-1-1">
+        <h3>Which Factors are Strongly Related to Alcohol Consumption?</h3>
+        </div>
+      </div>
+<!-- end pure grid group -->
 
     <!-- pure grid group -->
     <div class="pure-g">
 
-      <div class="pure-u-2-3">
-        <div id="vis3"  class="vis-container"></div>
+      <div class="pure-u-1-2">
+        <div id="vis6"  class="vis-container"></div>
       </div>
-      
-      <div class="pure-u-1-3">
-        <div class="description description-left">
-          <h2>Section title</h2>
-          <p>text</p>
+
+      <div class="pure-u-1-2">
+        <div class="description description-right2">
+          
+          <p> Looking at the correlations holistically, the strongest correlation is between Alcohol (Litres) and Beer Servings, 
+            with a correlation of 0.84 which highlights that beer is a popular beverage among countries with higher consumption rates,
+            followed by spirit servings and then wine servings. Other than this, there is no other significant correlations when 
+            taking all continents into consideration. 
+            <br>
+            To note which beverage is most popular based on each continent, we can look at the relative correlations between Alcohol 
+            (Litres) and Beer, Spirit, and Wine Servings. These relative differences are emphasied in the chart below.
+            <br> 
+            <br>
+            <div class="pure-g">
+
+              <div class="pure-u-1-6">
+                <div id="vis3"  class="vis-container"></div>
+              </div>
+            
+            </div>
+
+          </p>
         </div>
       </div>
     
@@ -75,26 +167,151 @@
     <!-- pure grid group -->
     <div class="pure-g">
 
-      <div class="pure-u-2-3">
+      <div class="pure-u-1-2">
+        <div class="description description-left">
+          
+          <p> 
+            <span class="bold">Interesting correlations to note in Continents:</span>
+            <br>
+            <ul>
+              <li> <span class="NorthAm_text">North America</span>, <span class="SouthAm_text">South America</span>, 
+                <span class="Africa_text">Africa</span> and <span class="Oceania_text">Oceania</span> all have a strong positive relationship 
+                between Income and Wine servings with correlations between <b> 0.59 - 0.94</b>.                
+              <li> <span class="NorthAm_text">North America </span> has a strong positive between happiness score and both beer and wine servings,
+                but a slight negative correlation with happiness score and spirit servings.
+            </ul>
+          </p>
+        </div>
+      </div>
+
+      <div class="pure-u-1-2">
+        <div class="description description-right3">
+          <p>
+          <ul>
+            <li> <span class="SouthAm_text">South America </span> has a strong negative relationship between beer servings and suicide.
+              <li> <span class="Europe_text">Europe </span> is the only continent with a negative relationship between Alcohol (Litres) and Income.
+              <li> <span class="Oceania_text">Oceania </span> also has a strong correlation between Income and Beer Servings.
+          </ul>
+        </p>
+      </div>
+    </div>
+
+    
+    </div>
+    <!-- end pure grid group -->
+
+    <!-- pure grid group -->
+    <div class="pure-g">
+      <div class="pure-u-1-1">
+      <h2>What is the Relationship between Alcohol Consumption and Happiness Levels?</h2>
+      </div>
+    </div>
+  <!-- end pure grid group -->
+
+    <!-- pure grid group -->
+    <div class="pure-g">
+
+      <div class="pure-u-1-2">
         <div id="vis4"  class="vis-container"></div>
       </div>
-      
-      <div class="pure-u-1-3">
-        <div class="description description-left">
-          <h2>Section title</h2>
-          <p>text</p>
+
+      <div class="pure-u-1-2">
+        <div class="description description-right2">
+          
+          <p> Looking at the heatmap holistically (taking all continents into consideration), a strong positive trend is observed.
+            An increase in pure alcohol is correlated with an increase in the average happiness score.
+            <br>
+            <br>
+            There are no countries with an average happiness score < 4 and average alcohol consumption > 6L, meaning that there are no countries with 
+            a combination of a low happiness score and relatively high alcohol consumption. HOWEVER, there are also no countries with an 
+            average happiness score > 6 and averagge alcohol consumption > 12L, meaning that an excess of alchol is also not good. A similar pattern is 
+            observed in North America, South America and Europe.
+            <br>
+            <br>
+            Overall, the happiest countries are those that drink between 8-10L while the unnhappiest countries are those that drink between 0-6L.
+          </p>
         </div>
+      </div>
+
+    </div>
+    <!-- end pure grid group -->
+
+    <!-- pure grid group -->
+    <div class="pure-g">
+      <div class="pure-u-1-1">
+      <h2>What is the Relationship between Alcohol Consumption and Sucicide?</h2>
+      </div>
+
+    </div>
+  <!-- end pure grid group -->
+
+    <!-- pure grid group -->
+    <div class="pure-g">
+
+      <div class="pure-u-1">
+        <div id="vis2"  class="vis-container"></div>
       </div>
     
     </div>
     <!-- end pure grid group -->
+
+    <!-- pure grid group -->
+  <div class="pure-g">
+    <div class="pure-u-1-2">
+      <div class="description description-left2">
+      <p>
+        In the above plot it is evident that there is a strong positive relationship between suicide and alcohol consumption. 
+        This relationship is particularly prevalent in Europe, Oceania, and Asia. Africa has a sligght positive relationship but 
+        mostly plateaus out at higher alcohol consumption. 
+        <br>
+        <br>
+        On the other hand, North America has a cluster towards the bottom centre of the chart and does not show any 
+        significant trend. The same is observed in North America with the exception of two outliers, Suriname, and Guyana which 
+        have a much higher suicide rate than the cluster of other South American countries. 
+        <br>
+        <br> 
+        
+
+      </p>  
+      </div>
+    </div>
+   
+    <div class="pure-u-1-2">
+      <div class="description description-right3">
+      <p>
+        Oceania has a cluster of countries towards the lower ennd of both suicide rate and alcohol consumptionn with 
+        the exception of: New Zealand, Australia and Palau which still have a relatively losw suicide rate but a higher 
+        alcohol consumption. 
+        <br>
+        <br>
+        What is interesting to note is that there is a general positive correlation between alcohol consumption and suicide rate but 
+        also a positive correlation between alcohol consumption and happiness scores (but to a ceratin extent).
+      </p>
+    </div>
+  </div>
+  </div>
+
+<!-- end pure grid group -->
   
+    <!-- pure grid group -->
     <div class="pure-g">
-      <div class="pure-u-1-1 small-font">
-        <p>This visualisation is created by <a href="https://github.com/arzukhannna9" target="_blank">Arzu Khanna</a>. The datasource is <a href="#"" target="_blank">some data repository online</href>.</p>
+      <div class="pure-u-1">
+        <p> 
+          Data Sources:
+          <br>
+          <ul>
+            <li> <a href="https://www.kaggle.com/sansuthi/alcohol-consumption" target="_blank">Alcohol Consumption: Suicide Rate, Income, Employment & Urban Rate</a>.</li>
+              <li> <a href="https://www.kaggle.com/codebreaker619/alcohol-comsumption-around-the-world" target="_blank">Alcohol Consumption by Countries in Average Serving Sizes Per Person</a>.</li>
+              <li> <a href="https://www.kaggle.com/marcospessotto/happiness-and-alcohol-consumption" target="_blank">Alcohol consumption Versus Happiness Score</a>.</li>
+          </ul>
+          <br>
+          <br>
+          This visualisation is created by <a href="https://github.com/arzukhanna9" target="_blank">ARZU KHANNA</a>.
+          </p>
       </div>
     </div>
   
+    <!-- end pure grid group -->
 
   </div> <!-- end page -->
    
@@ -103,6 +320,8 @@
   var specVis2 = "js/alc_choropleth_map.vg.json";
   var specVis3 = "js/stacked_chart.vg.json";
   var specVis4 = "js/heatmap.vg.json";
+  var specVis5 = "js/donutchart.vg.json";
+  var specVis6 = "js/correlation_plot.vg.json";
 
   vegaEmbed('#vis1', specVis2, {"actions": false});
   
@@ -117,6 +336,14 @@
   vegaEmbed('#vis4', specVis4, {"actions": false}).then(function(result) {
     // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
   }).catch(console.error);
+
+  vegaEmbed('#vis5', specVis5, {"actions": false}).then(function(result) {
+    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+  }).catch(console.error);
+
+  vegaEmbed('#vis6', specVis6, {"actions": false}).then(function(result) {
+    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+  }).catch(console.error);
 </script>
 </body>
-</html> 
+</html>
