@@ -1,0 +1,62 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "data": { "url": "https://raw.githubusercontent.com/arzukhanna9/FIT3179_Assignment2/main/data/full_alcohol_data.csv"},
+  "title": "Alcohol Consumption in Countries by Continent",
+  "width": 390,
+  "height": 380,
+  "background":"white",
+  "params": [
+    {
+    "name": "Alcohol_above",
+    "value": 0,
+    "bind": {
+      "input": "range",
+      "min": 0,
+      "max": 14,
+      "step": 0.5,
+      "name": "Maximum Alcohol:"
+    }
+  },
+    {
+      "name": "Continent_selection",
+"bind": {
+  "input": "select",
+  "options": [null, "North America", "South America", "Europe", "Africa", "Asia", "Oceania"],
+"labels": ["Show All", "North America", "South America", "Europe", "Africa", "Asia","Oceania"],
+"name": "Continent selection: "
+} }
+  ],
+  "transform": [
+{"filter": "Continent_selection == null || datum.Continent == Continent_selection"},
+{"filter": "datum.total_litres_of_pure_alcohol > Alcohol_above"}
+],
+  "selection": {
+      "continent_highlight": {
+        "type": "multi",
+        "fields": ["Continent"],
+        "bind": "legend"
+} 
+},
+"layer": [
+  {"mark": {"type": "arc", "innerRadius": 35, "padAngle": 0.004}}],
+  "encoding": {
+    "theta": {"field": "total_litres_of_pure_alcohol", "type": "quantitative"},
+    "radius": {"field": "total_litres_of_pure_alcohol", "scale": {"type": "sqrt", "range": [20,200]}},
+    "order": {"field": "Continent", "sort": "descending"},
+    "color": {"field": "Continent", "type": "nominal",
+    "sort":"ascending",
+    "scale": {
+        "domain": [
+          "North America", "South America", "Europe", "Africa", "Asia","Oceania"
+        ],
+        "range": ["#1E90FF","#9370DB","#FF69B4","#DC143C","#FF8C00","#9ACD32"]
+      },
+      "title": "Continent"        
+    },
+"tooltip": [
+{"field": "Continent", "type": "nominal", "title":"Continent"},
+{"field": "total_litres_of_pure_alcohol", "type": "quantitative", "title":"Pure Alcohol (Litres)"},
+{"field": "country", "type": "nominal", "title":"Country"}
+]
+  }
+}

@@ -2,7 +2,29 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": "Happiness vs Alcohol Consumed",
   "data": {"url": "https://raw.githubusercontent.com/arzukhanna9/FIT3179_Assignment2/main/data/full_alcohol_data.csv"},
-  "width": "container",
+  "width": 420,
+  "height": 420,
+  "params": [
+    {
+      "name": "Continent_selection",
+      "bind": {
+        "input": "select",
+        "options": [null, "North America", "South America", "Europe", "Africa", "Asia", "Oceania"],
+        "labels": ["Show All", "North America", "South America", "Europe", "Africa", "Asia","Oceania"],
+        "name": "Continent selection: "
+      }
+    }
+  ],
+  "transform": [{"filter": "Continent_selection == null || datum.Continent == Continent_selection"}],
+  "layer": [
+    {
+      "selection": {
+        "continent_highlight": {
+          "type": "multi",
+          "fields": ["Continent"],
+          "bind": "legend"
+        }
+      },
   "transform": [{
     "filter": {"and": [
       {"field": "Happiness Score", "valid": true},
@@ -10,8 +32,8 @@
     ]}
   }],
   "mark": "rect",
-  "width": 300,
-  "height": 200,
+  "width": 330,
+  "height": 330,
   "encoding": {
     "x": {
       "title": "Pure Alcohol (Litres)",
@@ -21,22 +43,28 @@
     },
     "y": {
       "title": "Average Happiness Score (/10)",
-      "bin": {"maxbins": 10},
+      "bin": {"maxbins":10},
       "field": "Happiness Score",
       "type": "quantitative"
     },
     "color": {
-      "title": "Frequency",
+      "title": "Number of Countries",
       "aggregate": "count",
-      "type": "quantitative"
-    }
-  },
+      "type": "quantitative",
+      "scale": {
+        "type": "threshold",
+        "domain": [3, 6],
+        "range": ["#fec44f", "#d95f0e", "#993404"]
+    }},
+    "tooltip": [{"field": "__count", "type": "quantitative", "title": "Number of countries"},
+                  {"field": "bin_maxbins_8_total_litres_of_pure_alcohol", "type": "nominal", "title": "alcohol (min)"},
+                  {"field": "bin_maxbins_8_total_litres_of_pure_alcohol_end", "type": "nominal", "title": "alcohol (max)"},
+                  {"field": "bin_maxbins_10_Happiness Score", "type": "nominal", "title": "Happiness Score (min)"},
+                  {"field": "bin_maxbins_10_Happiness Score_end", "type": "nominal", "title": "Happiness Score (max)"}]
+  }}],
   "config": {
-    "view": {
-      "stroke": "transparent"
-    }
-  }
-}
+    "axis": {
+      "grid": true}}}
 
 
 

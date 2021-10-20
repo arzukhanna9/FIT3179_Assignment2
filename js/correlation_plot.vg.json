@@ -1,0 +1,57 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "data": {
+      "url": "https://raw.githubusercontent.com/arzukhanna9/FIT3179_Assignment2/main/data/correlation.data.csv"
+    },
+    "title": "Relationships Between Alcohol-Related Attributes",
+    "width": 350,
+    "height": 350,
+     "params": [
+    {
+      "name": "Continent_selection",
+      "value": "All",
+"bind": {
+  "input": "select",
+  "options": ["All", "North America", "South America", "Europe", "Africa", "Asia", "Oceania"],
+"labels": ["All", "North America", "South America", "Europe", "Africa", "Asia","Oceania"],
+"name": "Continent selection: "
+} }
+  ],
+  "transform": [{"filter": "datum.Continent == Continent_selection"}],
+  "selection": {
+      "continent_highlight": {
+        "type": "multi",
+        "fields": ["Continent"],
+        "bind": "legend"
+}},
+  "encoding": {
+    "y": {"field": "Measure1", "type": "ordinal", "title": "", 
+     "axis": {"labelFontSize": 9}
+    },
+    "x": {"field": "Measure2", "type": "ordinal", "title": "",
+    "axis": {"labelFontSize": 9, "labelAngle": 45}}
+  },
+  "layer": [
+    {
+      "mark": "rect",
+      
+      "encoding": {
+        "color": {
+          "field": "Correlation",
+          "type": "quantitative",
+          "scale": {
+          "domainMid": 0,
+          "range": "diverging"},
+          "legend": {"title": "Correlation"}
+        },
+      "tooltip": [{"field": "Measure1", "type": "nominal", "title": "Measure1"},
+                  {"field": "Measure2", "type": "nominal", "title": "Measure2"},
+                  {"field": "Correlation", "type": "quantitative", "title": "Correlation"}]
+      }
+    }
+  ],
+  "config": {
+    "axis": {"grid": true, "tickBand": "extent"},
+    "font": "Helvetica"
+  }
+}
