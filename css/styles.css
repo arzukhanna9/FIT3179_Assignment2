@@ -46,9 +46,21 @@ body {
 }
 
 p {
-    max-width: 48ch;
+    max-width: 47ch;
     font-size: 18px;
-    font-family: 'Avenir', Helvetica, sans-serif;
+    font-family: 'Avenir', sans-serif;
+}
+
+ul {
+    max-width: 47ch;
+    font-size: 18px;
+    font-family: 'Avenir', sans-serif;
+}
+
+li {
+    max-width: 47ch;
+    font-size: 18px;
+    font-family: 'Avenir', sans-serif;
 }
 
 .bold {
@@ -112,7 +124,7 @@ h1 {
 }
 
 .small-font {
-    font-size: 17px;
+    font-size: 15px;
     font-family: 'Avenir', Helvetica, sans-serif
 }
 
@@ -146,9 +158,36 @@ h1 {
     font-size: 18px;
 }
 
-.hello {
-    font-weight: 600;
-    color : "red";
+.brown_text {
     font-size: 18px;
+    font-family: 'Avenir', Helvetica, sans-serif;
+    color : rgba(168, 83, 3, 0.747);
+}
+
+.corr_text {
+    font-size: 18px;
+    font-family: 'Avenir', sans-serif;
+    color : rgba(3, 28, 168, 0.747);
+}
+
+.beer_text {
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Avenir', sans-serif;
+    color : #e7ba52;
+}
+
+.spirit_text {
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Avenir', Helvetica, sans-serif;
+    color : #b3d9ff;
+}
+
+.wine_text {
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Avenir', Helvetica, sans-serif;
+    color : #cc0044;
 }
 
