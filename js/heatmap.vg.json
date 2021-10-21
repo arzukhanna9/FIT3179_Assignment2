@@ -39,13 +39,15 @@
       "title": "Pure Alcohol (Litres)",
       "bin": {"maxbins":8},
       "field": "total_litres_of_pure_alcohol",
-      "type": "quantitative"
+      "type": "quantitative",
+      "axis": {"format": ".0f", "titleFontSize":13}
     },
     "y": {
       "title": "Average Happiness Score (/10)",
       "bin": {"maxbins":10},
       "field": "Happiness Score",
-      "type": "quantitative"
+      "type": "quantitative",
+      "axis": {"titleFontSize":13}
     },
     "color": {
       "title": "Number of Countries",
@@ -64,7 +66,10 @@
   }}],
   "config": {
     "axis": {
-      "grid": true}}}
+      "grid": true},
+      "font": "Avenir",
+      "title": {"font": "Avenir","fontSize":18},
+      "legend": {"labelFont": "Avenir", "titleFont": "Avenir","labelFontSize":11,"titleFontSize":13}}}
 
 
 

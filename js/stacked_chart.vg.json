@@ -5,7 +5,10 @@
   "title": "Preferred Beverages in Each Continent",
   "config": {
     "axis": {
-      "grid": false}},
+      "grid": false},
+      "font": "Avenir",
+      "legend": {"labelFont": "Avenir", "titleFont": "Avenir","labelFontSize":11,"titleFontSize":13},
+      "title": {"font": "Avenir","fontSize":16}},
   "data": {"url": "https://raw.githubusercontent.com/arzukhanna9/FIT3179_Assignment2/main/data/alc_continents.csv"},
   "transform": [
     {
@@ -13,6 +16,7 @@
       "as": "order"
     }
   ],
+  "layer": [{
   "mark": "bar",
   "encoding": {
     "y": {
@@ -20,12 +24,13 @@
       "type": "nominal",
       "title": "Continent",
       "sort": "-x",
-      "axis": {"labelFontSize": 9, "labelAngle": 45}}
+      "axis": {"labelFontSize": 9, "labelAngle": 45, "titleFontSize":13}}
     ,
     "x": {
       "aggregate": "sum",
       "field": "servings",
-      "title": "Servings"
+      "title": "Servings",
+      "axis": {"labelFontSize": 9, "titleFontSize":13}
     },
     "color": {
       "title": "Alcohol",
@@ -35,6 +40,7 @@
         "range": ["#e7ba52", "#b3d9ff", "#cc0044"]
       }
       },
-      "order": {"field": "order", "type": "ordinal"}
-    }
+      "order": {"field": "order", "type": "ordinal"},
+      "tooltip": [{"field": "servings", "type": "nominal", "title": "Servings", "format": ".2f"}]
+    }}]
   }

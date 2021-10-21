@@ -26,10 +26,10 @@
 }},
   "encoding": {
     "y": {"field": "Measure1", "type": "ordinal", "title": "", 
-     "axis": {"labelFontSize": 9}
+     "axis": {"labelFontSize": 10}
     },
     "x": {"field": "Measure2", "type": "ordinal", "title": "",
-    "axis": {"labelFontSize": 9, "labelAngle": 45}}
+    "axis": {"labelFontSize": 10, "labelAngle": 45}}
   },
   "layer": [
     {
@@ -51,7 +51,8 @@
     }
   ],
   "config": {
-    "axis": {"grid": true, "tickBand": "extent"},
-    "font": "Helvetica"
+    "axis": {"grid": true, "tickBand": "extent", "labelFont": "Avenir", "titleFontSize":12},
+    "font": "Avenir",
+      "legend": {"labelFont": "Avenir", "titleFont": "Avenir","labelFontSize":10,"titleFontSize":13},
+      "title": {"font": "Avenir","fontSize":18}}
   }
-}

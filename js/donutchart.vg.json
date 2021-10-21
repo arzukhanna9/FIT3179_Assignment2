@@ -4,6 +4,9 @@
   "title": "Alcohol Consumption in Countries by Continent",
   "width": 390,
   "height": 380,
+  "config": {
+    "legend": {"labelFont": "Avenir", "titleFont": "Avenir","labelFontSize":11,"titleFontSize":13},
+    "title": {"font": "Avenir","fontSize":18}},
   "background":"white",
   "params": [
     {
